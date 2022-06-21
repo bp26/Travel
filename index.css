@@ -1,0 +1,67 @@
+* {
+    /*outline: 1px solid red*/
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-size: 16px;
+    
+}
+
+header {
+    width: 100vw;
+    min-height: 765px;
+    background-image: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.svg);
+    background-size: cover;
+}
+
+.mainheader {
+    width: 100%;
+    min-height: 90px;
+    margin: 0;
+    background-color: #F2785CB2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header1 {
+    width: 30vw;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.smallimage {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/Vector.svg);
+}
+
+nav ul {
+    width: 40vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: ;
+    
+}
+
+.header3 {
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header3 p {
+    margin-right: 8vw;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0D606F;
+}
+
