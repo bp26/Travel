@@ -1,10 +1,9 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-
 
 body {
     font-size: 16px;
@@ -13,33 +12,25 @@ body {
 header {
     width: 100vw;
     min-height: 90px;
-    
-}
-
-.mainheader {
-    width: 100%;
-    min-height: 90px;
-    margin: 0;
     background-color: #F2785CB2;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
-.header1 {
+  
+.website_name {
     width: 30vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 h1 {
     font-size: 32px;
+    color: white;
 }
 
-.smallimage {
+.small_image {
     width: 30px;
     height: 30px;
     background-image: url(img/Vector.svg);
@@ -50,21 +41,25 @@ nav {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    align-items: flex-end;
-    
+    align-items: flex-end; 
 }
 
-.header2 {
+.nav_link {
+    color:white;
+}
+
+.login_button_area {
     width: 30vw;
     display: flex;
     justify-content: flex-end;
 }
 
-.header2 p {
+.login_button {
     margin-right: 8vw;
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #0D606F;
+    color: white;
 }
 
 .mainform {
