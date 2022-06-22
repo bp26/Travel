@@ -9,12 +9,16 @@ body {
     font-size: 16px;
 }
 
+/*Area for header, form and background image*/
+
 header {
     width: 100vw;
     min-height: 765px;
     background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=pexels-pixabay-257360.jpg&fm=jpg);
     background-size: cover;
 }
+
+/*Actual header*/
 
 .main_header {
     width: 100vw;
@@ -96,14 +100,26 @@ nav {
     color: white;
 }
 
+/*Form itsef*/
+
 .do_form {
-    width: 900px;
-    padding: 5px; 
+    display:inline-block;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px; 
+}
+
+.do-form input {
+    
 }
 
 .do_form label {
     padding: 5px;
     background-color: #0D606F;
     border-radius: 10px;
+    margin-left: 100px;
 }
 
+.do_form label:hover {
+    background-color: green;
+}
