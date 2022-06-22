@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -7,6 +7,13 @@
 
 body {
     font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    min-height: 765px;
+    background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=pexels-pixabay-257360.jpg&fm=jpg);
+    background-size: cover;
 }
 
 .main_header {
@@ -49,6 +56,12 @@ nav {
     color:white;
 }
 
+.nav_link:hover {
+    text-decoration: underline;
+    color:yellow;
+
+}
+
 .login_button_area {
     width: 30vw;
     display: flex;
@@ -66,13 +79,19 @@ nav {
 .mainform_section {
     width: 100vw;
     min-height: 675px ;
-    text-align: center;
+    margin-top: 100px;
+    margin-left: 6vw;
+    color: white;
 }
 
 .do_form {
     width: 900px;
+    padding: 5px; 
+}
+
+.do_form label {
     padding: 5px;
-    
-    
+    background-color: #0D606F;
+    border-radius: 10px;
 }
 
