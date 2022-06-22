@@ -1,5 +1,5 @@
 * {
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -7,6 +7,8 @@
 
 body {
     font-size: 16px;
+    background-image: url(https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp);
+    background-size: 1440px 765px;
 }
 
 header {
@@ -16,6 +18,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;  
+    
 }
   
 .website_name {
@@ -67,3 +70,11 @@ nav {
     min-height: 675px ;
     text-align: center;
 }
+
+.do_form {
+    width: 900px;
+    padding: 5px;
+    
+    
+}
+
