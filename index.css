@@ -26,6 +26,8 @@ header {
     
 }
   
+/*Website name and icon*/
+
 .website_name {
     width: 30vw;
     display: flex;
@@ -43,6 +45,8 @@ h1 {
     height: 30px;
     background-image: url(img/Vector.svg);
 }
+
+/*Navigation*/
 
 nav {
     width: 40vw;
@@ -62,6 +66,8 @@ nav {
 
 }
 
+/*Login button*/
+
 .login_button_area {
     width: 30vw;
     display: flex;
@@ -75,6 +81,12 @@ nav {
     background-color: #0D606F;
     color: white;
 }
+
+.login_button:hover {
+    background-color: green;
+}
+
+/*Form section*/
 
 .mainform_section {
     width: 100vw;
