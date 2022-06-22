@@ -1,20 +1,19 @@
 * {
-    /*outline: 1px solid red*/
-    color: white;
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-.body {
+
+body {
     font-size: 16px;
-    
 }
 
 header {
     width: 100vw;
-    min-height: 765px;
-    background-image: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.svg);
-    background-size: cover;
+    min-height: 90px;
+    
 }
 
 .mainheader {
@@ -26,14 +25,18 @@ header {
     justify-content: space-around;
     align-items: center;
     
+    
 }
 .header1 {
     width: 30vw;
-    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+
+h1 {
+    font-size: 32px;
 }
 
 .smallimage {
@@ -42,26 +45,29 @@ header {
     background-image: url(img/Vector.svg);
 }
 
-nav ul {
+nav {
     width: 40vw;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     align-items: flex-end;
-    gap: ;
     
 }
 
-.header3 {
+.header2 {
     width: 30vw;
     display: flex;
     justify-content: flex-end;
 }
 
-.header3 p {
+.header2 p {
     margin-right: 8vw;
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #0D606F;
 }
 
+.mainform {
+    width: 100vw;
+    min-height: 675px ;
+}
