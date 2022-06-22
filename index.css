@@ -62,7 +62,8 @@ nav {
     color: white;
 }
 
-.mainform {
+.mainform_section {
     width: 100vw;
     min-height: 675px ;
+    text-align: center;
 }
