@@ -208,6 +208,7 @@ nav {
     margin-bottom: 53.5px;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .pixel_button_pale {
@@ -227,5 +228,17 @@ nav {
     outline: none;
     border: none;
 }
+
+/*Find More button*/
+
+.find_more_button_area {
+    display: flex;
+    justify-content: center;
+}
+
+.find_more_button {
+    
+}
+
 
 
