@@ -39,7 +39,7 @@ header {
     align-items: center;   
 }
 
-h1 {
+h2 {
     font-size: 32px;
     color: white;
 }
@@ -104,7 +104,7 @@ nav {
 
 /*Mainform section text*/
 
-.mainform_section h2 {
+.mainform_section h1 {
     font-size: 80px;
     
     
@@ -145,6 +145,12 @@ nav {
 
 /*Main starts here*/
 
+
+/*Steps and vectors*/
+
+.steps_section {
+}
+
 .orange_header2 {
    text-align: center; 
    color: #F2785C;
@@ -153,13 +159,22 @@ nav {
    font-size: 40px;
 }
 
-.steps_section .orange_header2 {   /*class selector doesn't work*/
-    margin-top: 80px; 
+.steps_section .orange_header2 {   
+    margin-top: 80px;
+    margin-bottom: 40px; 
 }
 
 .steps_section_pictures {
     display: flex;
     justify-content:space-around;
+}
+
+.steps_text {
+    margin-top: 30px;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0D606F;
 }
 
 
