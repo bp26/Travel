@@ -39,7 +39,7 @@ header {
     align-items: center;   
 }
 
-h2 {
+.website_name h2 {
     font-size: 32px;
     color: white;
 }
@@ -62,6 +62,9 @@ nav {
 
 .nav_link {
     color:white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    
 }
 
 .nav_link:hover {
@@ -84,6 +87,8 @@ nav {
     border-radius: 10px;
     background-color: #0D606F;
     color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
 }
 
 .login_button:hover {
@@ -146,7 +151,7 @@ nav {
 /*Main starts here*/
 
 
-/*Steps and vectors*/
+/*Steps section*/
 
 .steps_section {     /*Not sure about this class*/
 
@@ -182,4 +187,8 @@ nav {
     color: #0D606F;
 }
 
+/*Destinations section*/
 
+.destinations_section .orange_header2 {
+    margin-top: 90px;
+}
