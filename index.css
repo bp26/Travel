@@ -188,7 +188,7 @@ nav {
 }
 
 /*Destinations section*/
-
+ 
 .destinations_section .orange_header2 {
     margin-top: 90px;
     margin-bottom: 46px;
@@ -241,7 +241,7 @@ nav {
     
 }
 
-.destinations_section 
-
-
-
+.destinations_section .destination_header {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
