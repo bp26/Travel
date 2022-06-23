@@ -201,12 +201,31 @@ nav {
     gap: 60px;
 }
 
+/*Pixel buttons*/
+
 .pixels {
+    margin-top: 24px;
+    margin-bottom: 53.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.pixel_button_pale {
+    width: 20px;
+    height: 20px;
+    background-color: #F2785C80;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+
+.pixel_button_bright {
     width: 20px;
     height: 20px;
     background-color: #F2785C;
     border-radius: 50%;
-    margin-top: 24px;
-    text-align: center;
+    outline: none;
+    border: none;
 }
+
 
