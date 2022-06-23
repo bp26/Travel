@@ -126,7 +126,7 @@ nav {
     border-radius: 10px; 
 }
 
-.do-form input {
+.do-form input {      /*Not sure about this class*/
     
 }
 
@@ -148,7 +148,8 @@ nav {
 
 /*Steps and vectors*/
 
-.steps_section {
+.steps_section {     /*Not sure about this class*/
+
 }
 
 .orange_header2 {
@@ -162,6 +163,10 @@ nav {
 .steps_section .orange_header2 {   
     margin-top: 80px;
     margin-bottom: 40px; 
+}
+
+.steps_picture_div {    /*Not sure about this class*/
+    
 }
 
 .steps_section_pictures {
