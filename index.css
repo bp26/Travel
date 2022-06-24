@@ -1,5 +1,5 @@
 * {
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -9,10 +9,14 @@ body {
     font-size: 16px;
 }
 
+.wrapper {
+    max-width: 1440px;
+}
+
 /*Area for header, form and background image*/
 
 header {
-    width: 100vw;
+    width: 100%;
     min-height: 765px;
     background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=pexels-pixabay-257360.jpg&fm=jpg);
     background-size: cover;
@@ -21,7 +25,7 @@ header {
 /*Actual header*/
 
 .main_header {
-    width: 100vw;
+    width: 100%;
     min-height: 90px;
     background-color: #F2785CB2;
     display: flex;
@@ -33,7 +37,7 @@ header {
 /*Website name and icon*/
 
 .website_name {
-    width: 30vw;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -53,7 +57,7 @@ header {
 /*Navigation*/
 
 nav {
-    width: 40vw;
+    width: 40%;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -76,13 +80,13 @@ nav {
 /*Login button*/
 
 .login_button_area {
-    width: 30vw;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
 
 .login_button {
-    margin-right: 8vw;
+    margin-right: 30%;
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #0D606F;
@@ -98,10 +102,10 @@ nav {
 /*Form and Title section*/
 
 .mainform_section {
-    width: 60vw;
+    width: 60%;
     min-height: 675px ;
     margin-top: 100px;
-    margin-left: 6vw;
+    margin-left: 6%;
     color: white;
     font-family: 'Aleo', serif;
     font-weight: 700;
@@ -251,7 +255,7 @@ nav {
 /*Footer start*/
 
 footer {
-    width: 100vw;
+    width: 100%;
 }
 
 /*Stories section*/
