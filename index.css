@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -235,13 +235,13 @@ nav {
 
 /*Find More button*/
 
-.find_more_button_area {
+.more_button_area {
     display: flex;
     justify-content: center;
     
 }
 
-.find_more_button {
+.more_button {
     background-color: #0D606F;
 }
 
@@ -256,6 +256,9 @@ nav {
 
 footer {
     width: 100%;
+    height: 1330px;
+    background-image: url();
+    background-size: cover;
 }
 
 /*Stories section*/
@@ -281,6 +284,23 @@ footer {
 .story_text a {
     text-decoration: underline;
     color:#0D606F;
+}
+
+footer .more_button_area {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Main footer section*/
+
+.main_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_reserved {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
 }
 
 
