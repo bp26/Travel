@@ -194,7 +194,7 @@ nav {
     margin-bottom: 46px;
 }
 
-.destination_pictures {
+.destination_pictures {   /*check how to write on pictures*/
     display:flex;
     justify-content: center;
     overflow: hidden;
@@ -245,3 +245,41 @@ nav {
     margin-top: 90px;
     margin-bottom: 40px;
 }
+
+
+
+/*Footer start*/
+
+footer {
+    width: 100vw;
+}
+
+/*Stories section*/
+
+.stories_area {         /*check how to change gaps for columns*/
+    display: grid;
+    grid-template-columns: 400px 760px;
+    gap: 40px;
+    margin-left: 120px;
+}
+
+.story_block {
+    font-family: 'Aleo', serif;
+    font-weight: 400; 
+    color: #0D606F;
+}
+
+.story_title {
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.story_text a {
+    text-decoration: underline;
+    color:#0D606F;
+}
+
+
+
+
+
