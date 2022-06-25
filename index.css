@@ -368,6 +368,10 @@ footer {
     color:#0D606F;
 }
 
+.story_text a:hover {
+    filter: brightness(2);
+}
+
 footer .more_button_area {
     margin-top: 40px;
 }
