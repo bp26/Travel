@@ -1,12 +1,12 @@
 * {
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
 body {
-    font-size: 16px;  
+    font-size: 16px;
 }
 
 .wrapper {
@@ -22,7 +22,7 @@ header {
     background-size: cover;
 }
 
-/*Actual header*/
+/**Actual header*/
 
 .main_header {
     width: 100%;
@@ -34,7 +34,7 @@ header {
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5); 
     
 }
-  
+
 /*Website name and icon*/
 
 .website_name {
@@ -106,7 +106,7 @@ nav {
     background-color: green;
 }
 
-/*Form and Title section*/
+/**Form and Title section*/
 
 .mainform_section {
     width: 60%;
@@ -181,6 +181,8 @@ nav {
     font-weight: 500;
     color:#FFFFFF;
     background-color: #0D606F;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .do_form_button:hover {
@@ -189,21 +191,25 @@ nav {
 
 
 
-/*Main starts here*/
+/**Main starts here*/
 
 
-/*Steps section*/
+main {
+    width: 100%;
+}
 
-.steps_section {     /*Not sure about this class*/
+/**Steps section*/
 
+.steps_section { 
+    width: 100%;    /*Not sure about this class*/
 }
 
 .orange_header2 {
-   text-align: center; 
-   color: #F2785C;
-   font-family: 'Red Hat Text', sans-serif;
-   font-weight: 500;
-   font-size: 40px;
+    text-align: center; 
+    color: #F2785C;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .steps_section .orange_header2 {   
@@ -211,14 +217,19 @@ nav {
     margin-bottom: 40px; 
 }
 
-.steps_picture_div {    /*Not sure about this class*/
-    
+.steps_section_pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 204px;
 }
 
-.steps_section_pictures {
-    display: flex;
-    justify-content:space-around;
-}
+/*.steps_vector {
+    background-color:#F2785C;
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    margin-left: 80px;
+}*/
 
 .steps_text {
     margin-top: 30px;
@@ -228,8 +239,8 @@ nav {
     color: #0D606F;
 }
 
-/*Destinations section*/
- 
+/**Destinations section*/
+
 .destinations_section .orange_header2 {
     margin-top: 90px;
     margin-bottom: 46px;
@@ -275,11 +286,21 @@ nav {
 .more_button_area {
     display: flex;
     justify-content: center;
-    
 }
 
 .more_button {
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
     background-color: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    color: white;
+    font-size: 24px;
 }
 
 .destinations_section .destination_header {
@@ -289,7 +310,7 @@ nav {
 
 
 
-/*Footer start*/
+/**Footer start*/
 
 footer {
     width: 100%;
@@ -298,7 +319,7 @@ footer {
     background-size: cover;
 }
 
-/*Stories section*/
+/**Stories section*/
 
 .white_background {
     background-color: #FFFFFFB2;
@@ -309,6 +330,7 @@ footer {
     grid-template-columns: 400px 760px;
     gap: 40px;
     margin-left: 120px;
+    padding-top:  50px;
 }
 
 .stories_area img {
@@ -325,9 +347,16 @@ footer {
 .story_title {
     font-size: 35px;
     margin-bottom: 24px;
+    font-family: 'Aleo', serif;
+    font-weight: 400; 
+}
+
+.story_text {
+    font-size: 20px;
 }
 
 .story_text a {
+    font-weight: 700;
     text-decoration: underline;
     color:#0D606F;
 }
@@ -337,7 +366,7 @@ footer .more_button_area {
     margin-bottom: 40px;
 }
 
-/*Main footer section*/
+/**Main footer section*/
 
 .main_footer {
     display: flex;
