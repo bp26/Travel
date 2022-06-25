@@ -303,6 +303,10 @@ main {
     font-size: 24px;
 }
 
+.more_button:hover {
+    background-color: green;
+}
+
 .destinations_section .destination_header {
     margin-top: 90px;
     margin-bottom: 40px;
@@ -323,6 +327,7 @@ footer {
 
 .white_background {
     background-color: #FFFFFFB2;
+    padding-bottom: 40px; /*TODO Should be changed*/
 }
 
 .stories_area {         /*check how to change gaps for columns*/
@@ -363,7 +368,6 @@ footer {
 
 footer .more_button_area {
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 /**Main footer section*/
@@ -371,6 +375,7 @@ footer .more_button_area {
 .main_footer {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .main_footer_social {
@@ -381,13 +386,8 @@ footer .more_button_area {
     margin-right: 120px;
 }
 
-.youtube_icon {
-    width: 32px;
-    height: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(img/youtube_icon1.svg);
+.main_footer_social a:hover {
+    filter: brightness(2.5);
 }
 
 .main_footer_copyright {
