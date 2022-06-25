@@ -63,6 +63,10 @@ header {
 
 nav {
     width: 40%;
+
+}
+
+.navigation_header {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -70,14 +74,12 @@ nav {
     gap: 42px; 
 }
 
-.nav_link {
+.nav_link a {
     color:white;
-    font-family: 'Red Hat Text', sans-serif;
-    
-    
+    font-family: 'Red Hat Text', sans-serif;  
 }
 
-.nav_link:hover {
+.nav_link a:hover {
     text-decoration: underline;
     color:yellow;
 
