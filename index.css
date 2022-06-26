@@ -414,6 +414,7 @@ footer .more_button_area {
 .main_footer_copyright {
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
+    font-size: 16px;
     color: white;
     margin-left: 265px;
 }
