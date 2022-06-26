@@ -109,9 +109,9 @@ nav {
     background-color: green;
 }
 
-/**Form and Title section*/
+/**Preview section*/
 
-.mainform_section {
+.preview_section {
     width: 60%;
     min-height: 675px ;
     margin-top: 32px;
@@ -123,11 +123,11 @@ nav {
 
 /*Mainform section text*/
 
-.mainform_section h1 {
+.preview_section h1 {
     font-size: 80px;
 }
 
-.mainform_section p {
+.preview_section p {
     margin-top: 35px;     
     margin-bottom: 46px;
     font-size: 20px;
@@ -340,7 +340,7 @@ footer {
 
 /**Stories section*/
 
-.white_background {
+.stories_section {
     background-color: #FFFFFFB2;
     padding-bottom: 40px; 
     padding-top: 40px;
