@@ -1,5 +1,4 @@
 * {
-    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -7,7 +6,7 @@
 }
 
 html {
-    /*scroll-behavior: smooth;*/ /*TODO CHANGE IT*/
+    scroll-behavior: smooth;
 }
 
 body {
@@ -57,10 +56,7 @@ header {
     margin-right: 20px;
 }
 
-.small_image {
-    width: 30px;
-    height: 30px;
-    background-image: url(img/Header_Icon.svg);
+.website_name img {
     margin-right: 8px;
 }
 
@@ -129,12 +125,10 @@ nav {
 
 .mainform_section h1 {
     font-size: 80px;
-    
-    
 }
 
 .mainform_section p {
-    margin-top: 35px;     /*Subject to change*/
+    margin-top: 35px;     
     margin-bottom: 46px;
     font-size: 20px;
     font-style: italic;
@@ -147,12 +141,11 @@ nav {
     justify-content: space-between;
     background-color: #FFFFFFB2;
     border-radius: 16px;
-    width: 892px;        /*TODO change later*/
+    width: 892px;        
     height: 95px;
 }
 
-
-.do_form {    /*Not sure about this class*/
+.do_form {    
     display: inline-block;
     align-self: center;
 }
@@ -178,7 +171,7 @@ nav {
 }
 
 .do_form_button {
-    width: 228px;   /*TODO Change later*/
+    width: 228px;   
     height: 59px;
     border-radius: 10px;
     margin-right: 18px;
@@ -208,7 +201,7 @@ main {
 /**Steps section*/
 
 .steps_section { 
-    width: 100%;    /*Not sure about this class*/
+    width: 100%;    
 }
 
 .orange_header2 {
@@ -257,7 +250,7 @@ main {
     margin-bottom: 46px;
 }
 
-.destination_pictures {   /*check how to write on pictures*/
+.destination_pictures {   
     display:flex;
     justify-content: center;
     overflow: hidden;
@@ -277,7 +270,7 @@ main {
 /*Pixel buttons*/
 
 .pixels {
-    position: relative; /*TODO Should be changed*/
+    position: relative; /*TODO Should be changed later*/
     bottom: 17px;
     margin-bottom: 30px;
     display: flex;
@@ -349,11 +342,11 @@ footer {
 
 .white_background {
     background-color: #FFFFFFB2;
-    padding-bottom: 40px; /*TODO Should be changed*/
+    padding-bottom: 40px; 
     padding-top: 40px;
 }
 
-.stories_area {         /*check how to change gaps for columns*/
+.stories_area {         
     display: grid;
     grid-template-columns: 400px 760px;
     grid-gap: 30px 40px;
