@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -230,13 +230,17 @@ main {
     margin-left: 204px;
 }
 
-/*.steps_vector {
+.steps_vector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#F2785C;
     width: 100px;
     height: 100px;
     border-radius: 16px;
     margin-left: 80px;
-}*/
+}
+
 
 .steps_text {
     margin-top: 30px;
@@ -273,8 +277,9 @@ main {
 /*Pixel buttons*/
 
 .pixels {
-    margin-top: 24px;
-    margin-bottom: 53.5px;
+    position: relative; /*TODO Should be changed*/
+    bottom: 17px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -325,7 +330,7 @@ main {
 }
 
 .destinations_section .destination_header {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -345,14 +350,14 @@ footer {
 .white_background {
     background-color: #FFFFFFB2;
     padding-bottom: 40px; /*TODO Should be changed*/
+    padding-top: 40px;
 }
 
 .stories_area {         /*check how to change gaps for columns*/
     display: grid;
     grid-template-columns: 400px 760px;
-    gap: 40px;
+    grid-gap: 30px 40px;
     margin-left: 120px;
-    padding-top:  50px;
 }
 
 .stories_area img {
@@ -403,7 +408,7 @@ footer .more_button_area {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 22px;
     margin-right: 120px;
 }
 
