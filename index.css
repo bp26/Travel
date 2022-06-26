@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
 }
@@ -253,6 +257,16 @@ main {
     justify-content: center;
     overflow: hidden;
     gap: 60px;
+}
+
+.inner_text {
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
 }
 
 /*Pixel buttons*/
