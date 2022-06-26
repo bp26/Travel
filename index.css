@@ -340,7 +340,7 @@ main {
 
 footer {
     width: 100%;
-    height: 1430px;  /*TODO Change after steps*/ 
+    height: 1340px;   
     background-image: url(img/footer_background.jpg);
     background-size: cover;
 }
@@ -401,6 +401,7 @@ footer .more_button_area {
 .main_footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
 }
 
