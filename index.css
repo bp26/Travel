@@ -340,20 +340,20 @@ footer {
 
 /**Stories section*/
 
-.stories_section {
+.white_background {
     background-color: #FFFFFFB2;
     padding-bottom: 40px; 
     padding-top: 40px;
 }
 
-.stories_area {         
+.stories_section {         
     display: grid;
     grid-template-columns: 400px 760px;
     grid-gap: 30px 40px;
     margin-left: 120px;
 }
 
-.stories_area img {
+.stories_section img {
     border-radius: 16px;
     filter: drop-shadow(0px 4px 4px #0D606F);
 }
