@@ -257,6 +257,10 @@ main {
     gap: 60px;
 }
 
+.destination_pictures img {
+    border-radius: 16px;
+}
+
 .inner_text {
     position: relative;
     bottom: 80px;
