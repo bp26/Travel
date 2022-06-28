@@ -11,6 +11,7 @@ html {
 
 body {
     font-size: 16px;
+    color: white;
 }
 
 .wrapper {
@@ -20,14 +21,91 @@ body {
 /*Area for header, form and background image*/
 
 header {
-    width: 100%;
-    height: 765px;
+    min-height: 251px;
     background-image: url(img/header_background.jpg);
     background-size: cover;
 }
 
-/**Actual header*/
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.website_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.website_name h2 {
+    display: none;
+}
+
+
+.navigation_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: orange;  
+}
+
+.nav_link a {
+    color:white;
+    font-family: 'Red Hat Text', sans-serif;  
+}
+
+.nav_link a:hover {
+    text-decoration: underline;
+    color:yellow;
+}
+
+.login_button_area {
+    display: none;  
+}
+
+@media (min-width: 391px) {
+
+    .website_name h2 {
+        display: block;
+        font-size: 32px;
+        color: white;
+        font-family: 'Magra', sans-serif;
+        font-weight: 600;
+        margin-right: 20px;
+    }
+
+    .navigation_header {
+        flex-direction: row;
+    }
+
+    .login_button_area {
+        display: block;
+        margin-right: 20%;
+        border-radius: 10px;
+        background-color: #0D606F;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        color: white;
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 .main_header {
     width: 100%;
     min-height: 90px;
@@ -39,7 +117,7 @@ header {
     
 }
 
-/*Website name and icon*/
+Website name and icon
 
 .website_name {
     width: 35%;
@@ -60,7 +138,6 @@ header {
     margin-right: 8px;
 }
 
-/*Navigation*/
 
 nav {
     width: 40%;
@@ -86,7 +163,7 @@ nav {
 
 }
 
-/*Login button*/
+
 
 .login_button_area {
     width: 30%;
@@ -109,7 +186,7 @@ nav {
     background-color: green;
 }
 
-/**Preview section*/
+
 
 .preview_section {
     width: 60%;
@@ -121,7 +198,7 @@ nav {
     font-weight: 700;
 }
 
-/*Mainform section text*/
+
 
 .preview_section h1 {
     font-size: 80px;
@@ -133,8 +210,6 @@ nav {
     font-size: 20px;
     font-style: italic;
 }
-
-/*Form itsef*/
 
 .do_form_area {
     display: flex;
@@ -191,14 +266,14 @@ nav {
 
 
 
-/**Main starts here*/
+
 
 
 main {
     width: 100%;
 }
 
-/**Steps section*/
+
 
 .steps_section { 
     width: 100%;    
@@ -243,7 +318,7 @@ main {
     color: #0D606F;
 }
 
-/**Destinations section*/
+
 
 .destinations_section .orange_header2 {
     margin-top: 90px;
@@ -271,10 +346,10 @@ main {
     color: white;
 }
 
-/*Pixel buttons*/
+
 
 .pixels {
-    position: relative; /*TODO Should be changed later*/
+    position: relative;
     bottom: 17px;
     margin-bottom: 30px;
     display: flex;
@@ -300,7 +375,7 @@ main {
     border: none;
 }
 
-/*Find More button*/
+
 
 .more_button_area {
     display: flex;
@@ -333,7 +408,7 @@ main {
 
 
 
-/**Footer start*/
+
 
 footer {
     width: 100%;
@@ -342,7 +417,7 @@ footer {
     background-size: cover;
 }
 
-/**Stories section*/
+
 
 .white_background {
     background-color: #FFFFFFB2;
@@ -393,7 +468,7 @@ footer .more_button_area {
     margin-top: 40px;
 }
 
-/**Main footer section*/
+
 
 .main_footer {
     display: flex;
