@@ -413,6 +413,7 @@ footer .more_button_area {
 
 .main_footer_social a:hover {
     filter: brightness(2.5);
+    stroke: yellow;
 }
 
 .main_footer_copyright {
