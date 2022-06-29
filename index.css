@@ -42,11 +42,10 @@ header {
     display: none;
 }
 
-
 .navigation_header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: orange;  
 }
 
@@ -77,6 +76,8 @@ header {
 
     .navigation_header {
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .login_button_area {
@@ -89,20 +90,64 @@ header {
         font-family: 'Red Hat Text', sans-serif;
         font-weight: 500;
     }
+
+    .login_button {
+        max-width: 103px;
+        border-radius: 10px;
+        background-color: #0D606F;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        color: white;
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+    }
 }
 
 .preview_section {
-    width: 60%;
-    min-height: 675px ;
-    margin-top: 32px;
-    margin-left: 120px;
-    color: white;
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+.preview_section h1, p {
+    display: none;
+}
+
+.do_form_area {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFFB2;
+    border-radius: 16px;
+}
+
+.do_form input{
+    border: none;
+    background-color: transparent;
     font-family: 'Aleo', serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-style: italic;
+    color: #F2785C;
+}
+
+.do_form_button {
+    border-radius: 10px;
+    align-self: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    color:#FFFFFF;
+    background-color: #0D606F;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.do_form_button:hover {
+    background-color: green;
 }
 
 
+@media (min-width: 391px) {
 
+}
 
 
 
