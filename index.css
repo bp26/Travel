@@ -91,6 +91,15 @@ header {
     }
 }
 
+.preview_section {
+    width: 60%;
+    min-height: 675px ;
+    margin-top: 32px;
+    margin-left: 120px;
+    color: white;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+}
 
 
 
