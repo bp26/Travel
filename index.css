@@ -21,7 +21,7 @@ body {
 /*Area for header, form and background image*/
 
 header {
-    min-height: 251px;
+    height: 251px;
     background-image: url(img/header_background.jpg);
     background-size: cover;
 }
@@ -63,7 +63,17 @@ header {
     display: none;  
 }
 
+
+
+/* Media for main header*/
+
+
+
 @media (min-width: 391px) {
+
+    header {
+        height: 765px;
+    }
 
     .website_name h2 {
         display: block;
@@ -103,6 +113,10 @@ header {
     }
 }
 
+
+/* Preview section*/
+
+
 .preview_section {
     width: 100%;
     margin-top: 67px;
@@ -116,8 +130,11 @@ header {
 
 .do_form_area {
     width: 90%;
+    height: 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     background-color: #FFFFFFB2;
     border-radius: 16px;
 }
@@ -125,20 +142,26 @@ header {
 .do_form input{
     border: none;
     background-color: transparent;
+
     font-family: 'Aleo', serif;
     font-weight: 400;
     font-style: italic;
     color: #F2785C;
+   
 }
 
 .do_form_button {
-    border-radius: 10px;
+    width: 92px;
+    height: 30px;
     align-self: center;
+
+
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
     color:#FFFFFF;
     background-color: #0D606F;
     border: none;
+    border-radius: 10px;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
@@ -157,6 +180,44 @@ header {
     
     .preview_section h1, p {
         display: block;
+    }
+
+    .preview_section h1 {
+        font-size: 80px;
+    }
+    
+    .preview_section p {
+        margin-top: 35px;     
+        margin-bottom: 46px;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .do_form {
+        height: 59px;
+    }
+
+    .do_form input::placeholder {
+        font-family: 'Aleo', serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        color: #F2785C;
+    }
+    
+    .do_form_button {
+        width: 228px;
+        height: 59px;
+        border-radius: 10px;
+        margin-right: 18px;
+        align-self: center;
+        font-family: 'Red Hat Text', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color:#FFFFFF;
+        background-color: #0D606F;
+        border: none;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     }
 
 
