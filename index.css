@@ -78,6 +78,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        background-color: transparent;
     }
 
     .login_button_area {
@@ -103,6 +104,7 @@ header {
 }
 
 .preview_section {
+    width: 100%;
     margin-top: 67px;
     display: flex;
     justify-content: center;
@@ -146,6 +148,17 @@ header {
 
 
 @media (min-width: 391px) {
+    .preview_section {
+        display: block;
+        width: 60%;
+        margin-left: 8%;
+     
+    }
+    
+    .preview_section h1, p {
+        display: block;
+    }
+
 
 }
 
