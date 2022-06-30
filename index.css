@@ -22,7 +22,7 @@ body {
     max-width: 1440px;  
 }
 
-/*Area for header, form and background image*/
+/*Area for header, form and background image, linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%)*/
 
 header {
     min-height: 251px;
@@ -34,6 +34,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
 }
 
 .website_name {
@@ -42,23 +45,22 @@ header {
     justify-content: space-around;
 }
 
-.website_name h2 {
-    display: none;
+.website_name img {
+    margin-left: 16px;
 }
 
-.website_name img {
-    margin-top: 45px;
-    margin-left: 16px;
+.website_name h2 {
+    display: none;
 }
 
 .navigation_header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     list-style-type: none;
-
     position: fixed;
-    right: -50;
+    top: -100px;
+    right: -100px;
+    z-index: 9999;
 
 
     background-color: orange;  
@@ -73,6 +75,16 @@ header {
     text-decoration: underline;
     color:yellow;
 }
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+    z-index: 1000;
+    margin-right: 24px;
+}
+
 
 .login_button_area {
     display: none;  
@@ -90,21 +102,22 @@ header {
         min-height: 765px;
     }
 
-    .website_name {
-        align-items: center;;
+    .main_header {
+        min-height: 90px;
+        position: static;
+        flex-wrap: nowrap;
+        background-color: #F2785CB2;
+        box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5); 
     }
-
 
     .website_name {
         width: 30%;
         justify-content: center;  
     }
-    
+
     .website_name img {
-        margin-top: 0;
         margin-left: 0;
     }
-
 
     .website_name h2 {
         display: block;
@@ -117,7 +130,6 @@ header {
 
     .navigation_header {
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         gap: 42px;
@@ -125,11 +137,14 @@ header {
         background-color: transparent;
     }
 
+    .burger {
+        display: none;
+    }
+
     .login_button_area {
         display: flex;
         justify-content: flex-end;
-        width: 30%;
-       
+        width: 30%; 
     }
 
     .login_button {
@@ -137,6 +152,7 @@ header {
         margin-right: 30%;
         padding: 10px 30px;
         border-radius: 10px;
+        border: none;
         background-color: #0D606F;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
         color: white;
@@ -145,7 +161,7 @@ header {
     }
 
     .login_button:hover {
-         background-color: green;
+        background-color: green;
         }
     }
 
@@ -154,7 +170,7 @@ header {
 
 
 .preview_section {
-    margin-top: 67px;
+    margin-top: 110px; /*TODO CHANGE*/
     display: flex;
     justify-content: center;
 
@@ -186,8 +202,7 @@ header {
     font-family: 'Aleo', serif;
     font-weight: 400;
     font-style: italic;
-    color: #F2785C;
-   
+    color: #F2785C;  
 }
 
 .do_form input::placeholder {
@@ -222,8 +237,7 @@ header {
         display: block;
         width: 60%;
         margin-top: 32px;
-        margin-left: 120px;
-     
+        margin-left: 120px;    
     }
     
     .preview_section h1, p {
