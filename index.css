@@ -3,25 +3,29 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    outline: 1px solid red;
+    
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     font-size: 16px;
     color: white;
+    
+    
 }
 
 .wrapper {
-    max-width: 1440px;
+    max-width: 1440px;  
 }
 
 /*Area for header, form and background image*/
 
 header {
-    height: 251px;
+    min-height: 251px;
     background-image: url(img/header_background.jpg);
     background-size: cover;
 }
@@ -42,10 +46,16 @@ header {
     display: none;
 }
 
+.website_name img {
+    margin-top: 45px;
+    margin-left: 16px;
+}
+
 .navigation_header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    list-style-type: none;
     background-color: orange;  
 }
 
@@ -72,8 +82,14 @@ header {
 @media (min-width: 391px) {
 
     header {
-        height: 765px;
+        min-height: 765px;
     }
+
+    .website_name {
+        width: 35%;
+        justify-content: center;  
+    }
+    
 
     .website_name h2 {
         display: block;
@@ -85,33 +101,35 @@ header {
     }
 
     .navigation_header {
+        width: 40%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 42px;
         background-color: transparent;
     }
 
     .login_button_area {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
         margin-right: 20%;
         border-radius: 10px;
         background-color: #0D606F;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    }
+
+    .login_button {
+        max-width: 103px;
         color: white;
         font-family: 'Red Hat Text', sans-serif;
         font-weight: 500;
     }
 
-    .login_button {
-        max-width: 103px;
-        border-radius: 10px;
-        background-color: #0D606F;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-        color: white;
-        font-family: 'Red Hat Text', sans-serif;
-        font-weight: 500;
+    .login_button:hover {
+         background-color: green;
+        }
     }
-}
 
 
 /* Preview section*/
@@ -122,6 +140,10 @@ header {
     margin-top: 67px;
     display: flex;
     justify-content: center;
+
+    color: white;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
 }
 
 .preview_section h1, p {
@@ -132,8 +154,9 @@ header {
     width: 90%;
     height: 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     background-color: #FFFFFFB2;
     border-radius: 16px;
@@ -148,6 +171,13 @@ header {
     font-style: italic;
     color: #F2785C;
    
+}
+
+.do_form input::placeholder {
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #F2785C;
 }
 
 .do_form_button {
@@ -174,7 +204,8 @@ header {
     .preview_section {
         display: block;
         width: 60%;
-        margin-left: 8%;
+        margin-top: 32px;
+        margin-left: 120px;
      
     }
     
@@ -193,8 +224,8 @@ header {
         font-style: italic;
     }
 
-    .do_form {
-        height: 59px;
+    .do_form_area { 
+        height: 95px;
     }
 
     .do_form input::placeholder {
@@ -210,17 +241,7 @@ header {
         height: 59px;
         border-radius: 10px;
         margin-right: 18px;
-        align-self: center;
-        font-family: 'Red Hat Text', sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        color:#FFFFFF;
-        background-color: #0D606F;
-        border: none;
-        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     }
-
-
 }
 
 
