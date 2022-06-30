@@ -56,6 +56,11 @@ header {
     flex-direction: column;
     justify-content: space-between;
     list-style-type: none;
+
+    position: fixed;
+    right: -50;
+
+
     background-color: orange;  
 }
 
@@ -116,6 +121,7 @@ header {
         align-items: center;
         flex-wrap: wrap;
         gap: 42px;
+        position: static;
         background-color: transparent;
     }
 
