@@ -114,6 +114,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
         gap: 42px;
         background-color: transparent;
     }
@@ -147,7 +148,6 @@ header {
 
 
 .preview_section {
-    width: 100%;
     margin-top: 67px;
     display: flex;
     justify-content: center;
@@ -161,9 +161,9 @@ header {
     display: none;
 }
 
-.do_form_area {
+.do_form {
     width: 90%;
-    height: 48px;
+    min-height: 48px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -235,11 +235,17 @@ header {
         font-style: italic;
     }
 
-    .do_form_area { 
-        height: 95px;
+    .do_form {
+        min-height: 95px;
+    }
+    
+    .do_form input {
+        width: 320px;
+        height: 30px;
     }
 
     .do_form input::placeholder {
+        
         font-family: 'Aleo', serif;
         font-size: 24px;
         font-weight: 400;
