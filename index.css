@@ -449,6 +449,7 @@ header {
 
 .pixels {
   position: absolute;
+  bottom: 13px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -478,18 +479,23 @@ header {
 }
 
 .more_button {
-  width: 228px;
-  height: 59px;
+  width: 92px;
+  height: 30px;
   border-radius: 10px;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12.5px;
+  gap: 6.6px;
   background-color: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   color: white;
-  font-size: 24px;
+  font-size: 11px;
+}
+
+.more_button_arrow {
+  width: 8.7px;
+  height: 5.6px;
 }
 
 .more_button:hover {
@@ -498,7 +504,12 @@ header {
 
 @media (min-width: 391px) {
   .destinations_section {
-     /*TODO Change later*/
+    max-width: 1440px;/*TODO Change later*/
+  }
+
+  .destinations_section .orange_header2 {
+    margin-top: 97px;
+    margin-bottom: 40px;
   }
   
   .destination_pictures {   
@@ -508,9 +519,10 @@ header {
     gap: 60px;
   }
   
-.destination_div1, .destination_div2, .destination_div3 {
+  .destination_div2, .destination_div3 {
   display: block;
-}
+  position: relative;
+  }
 
   .destination_pictures img {
     border-radius: 16px;
@@ -519,9 +531,9 @@ header {
   }
   
   .inner_text {
-    position: relative;
-    bottom: 80px;
+    position: absolute;
     left: 15px;
+    top: 720px;
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
     font-size: 32px;
@@ -560,18 +572,15 @@ header {
   .more_button {
     width: 228px;
     height: 59px;
-    border-radius: 10px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 12.5px;
-    background-color: #0D606F;
-    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    color: white;
     font-size: 24px;
   }
   
+  .more_button_arrow {
+    width: 35px;
+    height: 22.5px;
+  }
+
   .more_button:hover {
     background-color: green;
   }
