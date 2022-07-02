@@ -405,8 +405,7 @@ header {
 
 /**Destinations section*/
 
-.destinations_section {
-  max-width: 1440px; /*TODO Change later*/
+.destinations_section {/*TODO Change later*/
 }
 
 .destinations_section .orange_header2 {
@@ -450,8 +449,6 @@ header {
 
 .pixels {
   position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -501,7 +498,7 @@ header {
 
 @media (min-width: 391px) {
   .destinations_section {
-    max-width: 1440px; /*TODO Change later*/
+     /*TODO Change later*/
   }
   
   .destination_pictures {   
@@ -511,8 +508,14 @@ header {
     gap: 60px;
   }
   
+.destination_div1, .destination_div2, .destination_div3 {
+  display: block;
+}
+
   .destination_pictures img {
     border-radius: 16px;
+    width: 800px;
+    height: 800px;
   }
   
   .inner_text {
@@ -526,9 +529,6 @@ header {
   }
   
   .pixels {
-    position: relative;
-    bottom: 17px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     gap: 10px;
