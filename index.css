@@ -708,6 +708,66 @@ header {
   }
 }
 
+/**Footer*/
+
+
+.main_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main_footer_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-right: 120px;
+}
+
+.main_footer_social a:hover {
+  filter: brightness(2.5);
+}
+
+.main_footer_copyright {
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-left: 265px;
+}
+
+
+@media (min-width: 391px) {
+  .main_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+.main_footer_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-right: 120px;
+  }
+
+.main_footer_social a:hover {
+    filter: brightness(2.5);
+  }
+
+.main_footer_copyright {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-left: 265px;
+  }
+}
+
 /**
 .main_header {
     width: 100%;
