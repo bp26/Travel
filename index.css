@@ -731,7 +731,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 22px;
-  margin-right: 120px;
 }
 
 .main_footer_social a:hover {
@@ -759,11 +758,16 @@ header {
   }
 
 .main_footer_copyright {
+  display: block;
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: white;
     margin-left: 265px;
+  }
+
+  .footer_empty_space {
+    display: block;
   }
 }
 
