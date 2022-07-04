@@ -54,9 +54,12 @@ header {
 
 .navigation_header {
   min-height: 251px;
+  min-width: 165px;
   display: flex;
   flex-direction: column;
   justify-content: center; /**TODO Careful*/
+  align-items: center;
+  gap: 10px;
   list-style-type: none;
   position: fixed;
   top: 0px;
@@ -124,12 +127,17 @@ header {
 
   .navigation_header {
     min-height: 0;
+    min-width: 0;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 42px;
     position: static;
     background-color: transparent;
+  }
+
+  .nav_crest {
+    display: none;
   }
 
   .burger {
