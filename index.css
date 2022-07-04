@@ -611,7 +611,7 @@ header {
 .stories_flex {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   padding-bottom: 15px;
   margin-left: 15px;
@@ -650,7 +650,7 @@ header {
   display: none;
 }
 
-.story_text a {
+.mobile_text a {
   font-weight: 700;
   text-decoration: underline;
   color: #0d606f;
@@ -677,6 +677,7 @@ header {
   }
 
   .stories_flex {
+    align-items: flex-start;
     gap: 40px;
     padding-bottom: 30px; /*TODO Change margins to 0*/
   }
