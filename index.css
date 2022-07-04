@@ -618,6 +618,10 @@ header {
   margin-right: 15px;
 }
 
+.stories_area {
+  padding-top: 10px;
+}
+
 .stories_area img {
   width: 155px;
   height: 130px;
@@ -633,14 +637,17 @@ header {
 
 .story_title {
   font-size: 11px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   font-family: "Aleo", serif;
   font-weight: 400;
 }
 
-.story_text {
+.mobile_text {
   font-size: 9px;
-  text-overflow: ellipsis;
+}
+
+.story_text {
+  display: none;
 }
 
 .story_text a {
@@ -695,7 +702,12 @@ header {
     font-weight: 400;
   }
 
+  .mobile_text {
+    display: none;
+  }
+
   .story_text {
+    display: block;
     font-size: 20px;
   }
 
