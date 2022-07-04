@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
-  outline: 1px solid red;
+  /**outline: 1px solid red;*/
 }
 
 html {
@@ -395,6 +395,11 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: #0d606f;
+  }
+
+  .steps_text br {
+    /*TODO CHANGE*/
+    display: none;
   }
 }
 
