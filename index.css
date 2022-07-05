@@ -61,18 +61,19 @@ header {
   right: 0;
   transform: translateX(100%);
   z-index: 1000;
-  background-color: #F2785CB2;
+  background-color: #F2785C;
 
   display: flex;
   flex-direction: column;
   justify-content: center; /**TODO Careful*/
-  align-items: center;
+  align-items: flex-end;
   gap: 10px;
   list-style-type: none;
 }
 
 .navigation_header[data-visible = 'true'] {
   transform: translateX(0%);
+
 }
 
 .nav_link a {
