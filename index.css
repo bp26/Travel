@@ -20,9 +20,7 @@ body {
   margin: 0 auto;
 }
 
-
 /*Area for header, form and background image, linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%)*/
-
 
 header {
   min-height: 251px;
@@ -61,7 +59,7 @@ header {
   right: 0;
   transform: translateX(100%);
   z-index: 1000;
-  background-color: #F2785C;
+  background-color: #f2785c;
 
   display: flex;
   flex-direction: column;
@@ -71,9 +69,8 @@ header {
   list-style-type: none;
 }
 
-.navigation_header[data-visible = 'true'] {
+.navigation_header[data-visible="true"] {
   transform: translateX(0%);
-
 }
 
 .nav_link a {
@@ -129,7 +126,7 @@ header {
     color: white;
     font-family: "Magra", sans-serif;
     font-weight: 600;
-    margin-right: 20px;
+    /**TODO Here was margin 24px*/
   }
 
   .navigation_header {
@@ -137,7 +134,7 @@ header {
     min-width: 0;
     position: static;
     background-color: transparent;
-    transform:translateX(0%);
+    transform: translateX(0%);
 
     flex-direction: row;
     align-items: center;
@@ -174,9 +171,7 @@ header {
   }
 }
 
-
 /* Preview section*/
-
 
 .preview_section {
   margin-top: 110px; /*TODO CHANGE*/
@@ -300,12 +295,9 @@ header {
   }
 }
 
-
 /** Main start */
 
-
 /**Steps section*/
-
 
 .orange_header2 {
   font-size: 14px;
@@ -435,9 +427,7 @@ header {
   }
 }
 
-
 /**Destinations section*/
-
 
 .destinations_section .orange_header2 {
   margin: 20px 0;
@@ -634,9 +624,7 @@ header {
   }
 }
 
-
 /**Stories section*/
-
 
 .footer_background {
   background-image: url(img/footer_background.jpg);
@@ -772,9 +760,7 @@ header {
   }
 }
 
-
 /**Footer*/
-
 
 .main_footer {
   display: flex;
@@ -807,7 +793,7 @@ header {
 @media (min-width: 391px) {
   .main_footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
   }
@@ -817,7 +803,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 22px;
-    margin-right: 120px;
   }
 
   .main_footer_social a:hover {
@@ -830,7 +815,6 @@ header {
     font-weight: 500;
     font-size: 16px;
     color: white;
-    margin-left: 265px;
   }
 
   .footer_empty_space {
