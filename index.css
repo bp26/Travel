@@ -158,6 +158,8 @@ header {
     position: static;
     background-color: transparent;
     transform: translateX(0%);
+    transition-property: transform;
+    transition-duration: 0s;
 
     flex-direction: row;
     align-items: center;
