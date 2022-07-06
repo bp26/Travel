@@ -33,7 +33,7 @@ body {
 
 .overlay[data-visible='true']{
   display: block;
-  background:rgba(0, 0, 0, 0.75)
+  background:rgba(0, 0, 0, 0.75);
 }
 
 /*Area for header, form and background image, linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%)*/
@@ -70,6 +70,8 @@ header {
   top: 0;
   right: 0;
   transform: translateX(100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
   z-index: 5000;
   background-color: #f2785c;
 
@@ -83,6 +85,8 @@ header {
 
 .navigation_header[data-visible="true"] {
   transform: translateX(0%);
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 
 .nav_link a {
