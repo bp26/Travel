@@ -81,6 +81,7 @@ header {
   align-items: flex-end;
   gap: 10px;
   list-style-type: none;
+  border-radius: 16px 0 0 16px; /**TODO To be changed*/
 }
 
 .navigation_header[data-visible="true"] {
@@ -163,6 +164,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     gap: 42px;
+    border-radius: 0;
   }
 
   .hidden_link {
