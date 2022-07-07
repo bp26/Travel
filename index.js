@@ -36,3 +36,12 @@ overlay.addEventListener("click", () => {
     body.classList.remove("fixed");
   }
 });
+
+const screenWidth = window.matchMedia("(min-width: 391px)");
+screenWidth.addEventListener("change", () => {
+  if (screenWidth.matches) {
+    navigation_header.setAttribute("data-visible", "false");
+    overlay.setAttribute("data-visible", "false");
+    body.classList.remove("fixed");
+  }
+});
