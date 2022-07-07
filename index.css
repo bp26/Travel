@@ -31,9 +31,9 @@ body {
   z-index: 1000;
 }
 
-.overlay[data-visible='true']{
+.overlay[data-visible="true"] {
   display: block;
-  background:rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 /*Area for header, form and background image, linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%)*/
@@ -115,12 +115,10 @@ header {
 /* Media for main header*/
 
 @media (min-width: 391px) {
-
-  .overlay[data-visible='true']{
+  .overlay[data-visible="true"] {
     display: none;
-    width: 100% ;
+    width: 100%;
   }
-  
 
   header {
     min-height: 765px;
@@ -165,6 +163,10 @@ header {
     align-items: center;
     flex-wrap: wrap;
     gap: 42px;
+  }
+
+  .hidden_link {
+    display: none;
   }
 
   .burger {
