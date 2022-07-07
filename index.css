@@ -15,6 +15,10 @@ body {
   color: white;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -116,6 +120,10 @@ header {
 /* Media for main header*/
 
 @media (min-width: 391px) {
+  .fixed {
+    position: static;
+  }
+
   .overlay[data-visible="true"] {
     display: none;
     width: 100%;
