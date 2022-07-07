@@ -4,16 +4,24 @@ const link = document.querySelectorAll(".link");
 const overlay = document.querySelector(".overlay");
 const body = document.querySelector("body");
 
+function toggleOpen() {
+  navigation_header.setAttribute("data-visible", "true");
+  overlay.setAttribute("data-visible", "true");
+  body.classList.add("fixed");
+}
+
+function toggleClosed() {
+  navigation_header.setAttribute("data-visible", "false");
+  overlay.setAttribute("data-visible", "false");
+  body.classList.remove("fixed");
+}
+
 burger.addEventListener("click", () => {
   const expanded = navigation_header.getAttribute("data-visible");
   if (expanded === "false") {
-    navigation_header.setAttribute("data-visible", "true");
-    overlay.setAttribute("data-visible", "true");
-    body.classList.add("fixed");
-  } else if (expanded === "true") {
-    navigation_header.setAttribute("data-visible", "false");
-    overlay.setAttribute("data-visible", "false");
-    body.classList.remove("fixed");
+    toggleOpen();
+  } else {
+    toggleClosed();
   }
 });
 
@@ -21,9 +29,7 @@ link.forEach(function (link) {
   link.addEventListener("click", () => {
     const expanded = navigation_header.getAttribute("data-visible");
     if (expanded === "true") {
-      navigation_header.setAttribute("data-visible", "false");
-      overlay.setAttribute("data-visible", "false");
-      body.classList.remove("fixed");
+      toggleClosed();
     }
   });
 });
@@ -31,17 +37,13 @@ link.forEach(function (link) {
 overlay.addEventListener("click", () => {
   const expanded = navigation_header.getAttribute("data-visible");
   if (expanded === "true") {
-    navigation_header.setAttribute("data-visible", "false");
-    overlay.setAttribute("data-visible", "false");
-    body.classList.remove("fixed");
+    toggleClosed();
   }
 });
 
 const screenWidth = window.matchMedia("(min-width: 391px)");
 screenWidth.addEventListener("change", () => {
   if (screenWidth.matches) {
-    navigation_header.setAttribute("data-visible", "false");
-    overlay.setAttribute("data-visible", "false");
-    body.classList.remove("fixed");
+    toggleClosed();
   }
 });
