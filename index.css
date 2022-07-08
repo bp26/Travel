@@ -35,7 +35,7 @@ body {
   z-index: 1000;
 }
 
-.overlay[data-visible="true"] {
+.overlay[toggled-open="true"] {
   display: block;
   background: rgba(0, 0, 0, 0.75);
 }
@@ -88,7 +88,7 @@ header {
   border-radius: 16px 0 0 16px; /**TODO To be changed*/
 }
 
-.navigation_header[data-visible="true"] {
+.navigation_header[toggled-open="true"] {
   transform: translateX(0%);
   transition-property: transform;
   transition-duration: 0.5s;
@@ -172,6 +172,10 @@ header {
 
   .burger {
     display: none;
+  }
+
+  .cross {
+  display: none;
   }
 
   .login_button_area {
