@@ -85,7 +85,7 @@ header {
   align-items: flex-end;
   gap: 10px;
   list-style-type: none;
-  border-radius: 16px 0 0 16px; /**TODO To be changed*/
+  border-radius: 10px; /**TODO To be changed*/
 }
 
 .navigation_header[toggled-open="true"] {
@@ -109,8 +109,23 @@ header {
   flex-direction: column;
   position: relative;
   gap: 5px;
-  z-index: 9999;
   margin-right: 24px;
+}
+
+.burger[toggled-open = 'true'] {
+  display: none;
+}
+
+.cross {
+  display: none;
+}
+
+.cross[toggled-open = 'true'] {
+  display: block;
+  position: absolute;
+  top: 6%;
+  left: 9%;
+  z-index: 9999;
 }
 
 .login_button_area {
@@ -172,10 +187,6 @@ header {
 
   .burger {
     display: none;
-  }
-
-  .cross {
-  display: none;
   }
 
   .login_button_area {
