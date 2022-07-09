@@ -539,29 +539,30 @@ header {
   position: absolute;
 }
 
-.pixels {
+.pixel_group {
   position: absolute;
   bottom: 16px;
   display: flex;
   gap: 6px;
 }
-
-.pixel_button_pale {
+.pixel {
   width: 8px;
   height: 8px;
-  background-color: #f2785c80;
   border-radius: 50%;
   outline: none;
   border: none;
 }
 
-.pixel_button_bright {
-  width: 8px;
-  height: 8px;
+.pixel_button_1 {
   background-color: #f2785c;
-  border-radius: 50%;
-  outline: none;
-  border: none;
+}
+                                    /*TODO CHANGE THIS!!!!!!*/
+.pixel_button_2 {
+  background-color: #f2785c80;
+}
+
+.pixel_button_3 {
+  background-color: #f2785c80;
 }
 
 .destinations_section .more_button_area {
@@ -640,28 +641,30 @@ header {
     display: none;
   }
 
-  .pixels {
+  .pixel_group {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
 
-  .pixel_button_pale {
+  .pixel {
     width: 20px;
     height: 20px;
-    background-color: #f2785c80;
     border-radius: 50%;
     outline: none;
     border: none;
   }
 
-  .pixel_button_bright {
-    width: 20px;
-    height: 20px;
+  .pixel_button_1 {
+    background-color: #f2785c80;
+  }
+                                       /*TODO CHANGE THIS!!!!!!*/
+  .pixel_button_2 {
     background-color: #f2785c;
-    border-radius: 50%;
-    outline: none;
-    border: none;
+  }
+
+  .pixel_button_3 {
+    background-color: #f2785c80;
   }
 
   .more_button_area {
