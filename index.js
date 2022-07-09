@@ -1,3 +1,5 @@
+                     /*Navigation menu */
+
 const navigation_header = document.querySelector(".navigation_header");
 const burger = document.querySelector(".burger");
 const link = document.querySelectorAll(".link");
