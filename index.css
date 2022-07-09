@@ -46,6 +46,7 @@ header {
   min-height: 251px;
   background-image: url(img/header_background.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 .main_header {
@@ -54,7 +55,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  top: 50px;
+  top: 45px;
 }
 
 .website_name {
@@ -65,6 +66,10 @@ header {
 
 .website_name h2 {
   display: none;
+}
+
+.website_name img {
+  margin-left: 16.5px;
 }
 
 .navigation_header {
@@ -82,7 +87,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center; /**TODO Careful*/
-  align-items: flex-end;
+  align-items:flex-end;
   gap: 10px;
   list-style-type: none;
   border-radius: 10px; /**TODO To be changed*/
@@ -92,6 +97,10 @@ header {
   transform: translateX(0%);
   transition-property: transform;
   transition-duration: 0.5s;
+}
+
+.nav_link {
+  padding-right: 15px;
 }
 
 .nav_link a {
@@ -108,8 +117,9 @@ header {
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 5px;
-  margin-right: 24px;
+  gap: 3px;
+  margin-right: 23px;
+  margin-bottom: 3px;
 }
 
 .burger[toggled-open = 'true'] {
@@ -123,8 +133,8 @@ header {
 .cross[toggled-open = 'true'] {
   display: block;
   position: absolute;
-  top: 6%;
-  left: 9%;
+  top: 15.5px;
+  left: 15.5px;
   z-index: 9999;
 }
 
@@ -181,6 +191,9 @@ header {
     border-radius: 0;
   }
 
+  .nav_link{
+    padding: 0;
+  }
   .hidden_link {
     display: none;
   }
@@ -217,7 +230,7 @@ header {
 /* Preview section*/
 
 .preview_section {
-  margin-top: 110px; /*TODO CHANGE*/
+  margin-top: 112px; /*TODO CHANGE*/
   display: flex;
   justify-content: center;
 
@@ -235,10 +248,10 @@ header {
 }
 
 .do_form {
-  width: 90%;
+  width: 93%;
   min-height: 48px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 
@@ -249,6 +262,8 @@ header {
 .do_form input {
   border: none;
   background-color: transparent;
+  margin-left: 16px;
+  margin-top: 2px;
 
   font-family: "Aleo", serif;
   font-weight: 400;
@@ -267,9 +282,11 @@ header {
   width: 92px;
   height: 30px;
   align-self: center;
+  margin-right: 9px;
 
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
+  font-size: 11px;
   color: #ffffff;
   background-color: #0d606f;
   border: none;
@@ -318,6 +335,7 @@ header {
   .do_form input {
     width: 320px;
     height: 30px;
+    margin: 0;
   }
 
   .do_form input::placeholder {
