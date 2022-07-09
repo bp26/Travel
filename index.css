@@ -732,6 +732,7 @@ header {
 }
 
 .story_block {
+  margin-top: 3.5px;
   font-family: "Aleo", serif;
   font-weight: 400;
   color: #0d606f;
@@ -741,7 +742,7 @@ header {
   font-size: 11px;
   margin-bottom: 10px;
   font-family: "Aleo", serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .mobile_text {
