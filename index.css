@@ -491,7 +491,7 @@ header {
 /**Destinations section*/
 
 .destinations_section .orange_header2 {
-  margin: 20px 0;
+  margin: 20px 0 20.5px 0;
 }
 
 .destination_pictures {
@@ -501,7 +501,7 @@ header {
 }
 
 .destination_div1 {
-  width: 92%;
+  width: 92.5%;
   position: relative;
 }
 
@@ -531,7 +531,7 @@ header {
 }
 
 .destination_arrows {
-  width: 90%;
+  width: 93%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -541,9 +541,9 @@ header {
 
 .pixels {
   position: absolute;
-  bottom: 13px;
+  bottom: 16px;
   display: flex;
-  gap: 10px;
+  gap: 6px;
 }
 
 .pixel_button_pale {
@@ -565,7 +565,7 @@ header {
 }
 
 .destinations_section .more_button_area {
-  margin-top: 10px;
+  margin-top: 6px;
   margin-bottom: 20px;
 }
 
