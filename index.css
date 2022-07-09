@@ -846,6 +846,7 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 16px;
+  padding-bottom: 20px;
 }
 
 .footer_empty_space {
@@ -860,7 +861,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 22px;
+  gap: 15px;
 }
 
 .main_footer_social a:hover {
@@ -875,6 +876,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 20px; /*TODO Change later*/
+    padding-bottom: 0;
   }
 
   .main_footer_social {
