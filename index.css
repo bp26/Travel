@@ -322,10 +322,8 @@ header {
 
   .preview_text {
     margin-top: 35px;
-    margin-bottom: 46px;
+    margin-bottom: 44px;
     font-size: 20px;
-    font-style: italic;
-    font-weight: 700;
   }
 
   .do_form {
@@ -336,7 +334,9 @@ header {
   .do_form input {
     width: 320px;
     height: 30px;
-    margin: 0;
+    margin-left: 4%;
+    font-size: 24px;
+    font-weight: 400;
   }
 
   .do_form input::placeholder {
@@ -546,6 +546,11 @@ header {
   display: flex;
   gap: 6px;
 }
+
+.pixel_group_new {
+  display: none;
+}
+
 .pixel {
   width: 8px;
   height: 8px;
@@ -606,7 +611,7 @@ header {
 @media (min-width: 391px) {
   .destinations_section .orange_header2 {
     margin-top: 97px;
-    margin-bottom: 40px;
+    margin-bottom: 46px;
   }
 
   .destination_pictures {
@@ -631,7 +636,7 @@ header {
   .inner_text {
     position: absolute;
     left: 15px;
-    top: 720px;
+    top: 718px;
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
     font-size: 32px;
@@ -643,9 +648,15 @@ header {
   }
 
   .pixel_group {
+    display: none;
+  }
+
+  .pixel_group_new {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 20.5px;
+    margin-bottom: 40px;
   }
 
   .pixel {
