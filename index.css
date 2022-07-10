@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
-  /**outline: 1px solid red;*/
+  outline: 1px solid red;
 }
 
 html {
@@ -21,7 +21,6 @@ body {
 
 .wrapper {
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 .overlay {
@@ -304,7 +303,7 @@ header {
 @media (min-width: 391px) {
   .preview_section {
     display: block;
-    width: 60%;
+    width: 62%;
     margin-top: 32px;
     margin-left: 120px;
   }
@@ -326,9 +325,11 @@ header {
     margin-bottom: 46px;
     font-size: 20px;
     font-style: italic;
+    font-weight: 700;
   }
 
   .do_form {
+    width: 100%;
     min-height: 95px;
   }
 
