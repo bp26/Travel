@@ -826,6 +826,7 @@ header {
 
   .story_block {
     width: 53%;
+    margin-top: 0;
     font-family: "Aleo", serif;
     font-weight: 400;
     color: #0d606f;
@@ -899,8 +900,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px; /*TODO Change later*/
-    padding-bottom: 0;
+     /*TODO Change later*/
+    padding-bottom: 20px;
   }
 
   .main_footer_social {
