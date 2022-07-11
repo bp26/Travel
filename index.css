@@ -86,7 +86,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center; /**TODO Careful*/
-  align-items:flex-end;
+  align-items: flex-end;
   gap: 10px;
   list-style-type: none;
   border-radius: 10px; /**TODO To be changed*/
@@ -121,7 +121,7 @@ header {
   margin-bottom: 3px;
 }
 
-.burger[toggled-open = 'true'] {
+.burger[toggled-open="true"] {
   display: none;
 }
 
@@ -129,7 +129,7 @@ header {
   display: none;
 }
 
-.cross[toggled-open = 'true'] {
+.cross[toggled-open="true"] {
   display: block;
   position: absolute;
   top: 15.5px;
@@ -157,7 +157,7 @@ header {
   }
 
   .website_name {
-    width: 30%;
+    width: 32%;
     justify-content: center;
   }
 
@@ -190,7 +190,7 @@ header {
     border-radius: 0;
   }
 
-  .nav_link{
+  .nav_link {
     padding: 0;
   }
   .hidden_link {
@@ -204,7 +204,7 @@ header {
   .login_button_area {
     display: flex;
     justify-content: flex-end;
-    width: 30%;
+    width: 25%;
   }
 
   .login_button {
@@ -562,7 +562,7 @@ header {
 .pixel_button_1 {
   background-color: #f2785c;
 }
-                                    /*TODO CHANGE THIS!!!!!!*/
+/*TODO CHANGE THIS!!!!!!*/
 .pixel_button_2 {
   background-color: #f2785c80;
 }
@@ -670,7 +670,7 @@ header {
   .pixel_button_1 {
     background-color: #f2785c80;
   }
-                                       /*TODO CHANGE THIS!!!!!!*/
+  /*TODO CHANGE THIS!!!!!!*/
   .pixel_button_2 {
     background-color: #f2785c;
   }
@@ -783,9 +783,8 @@ header {
 /**Media for stories section*/
 
 @media (min-width: 391px) {
-
-  .stories_section .orange_header2 { /**TODO Change*/
-    
+  .stories_section .orange_header2 {
+    /**TODO Change*/
   }
 
   .footer_background {
