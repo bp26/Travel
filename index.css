@@ -902,8 +902,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-     /*TODO Change later*/
     padding-bottom: 20px;
+  }
+
+  .footer_empty_space {
+  display: block;
   }
 
   .main_footer_social {
