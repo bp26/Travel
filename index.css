@@ -43,7 +43,7 @@ body {
 
 header {
   min-height: 251px;
-  background-image: url(img/header_background.jpg);
+  background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%), url(img/header_background.jpg); 
   background-size: cover;
   background-position: center center;
 }
@@ -146,6 +146,8 @@ header {
 @media (min-width: 391px) {
   header {
     min-height: 765px;
+    background: none;
+    background: url(img/header_background.jpg);
   }
 
   .main_header {
