@@ -661,7 +661,6 @@ header {
     justify-content: center;
     gap: 10px;
     margin-top: 20.5px;
-    margin-bottom: 40px;
   }
 
   .pixel {
@@ -687,6 +686,11 @@ header {
   .more_button_area {
     display: flex;
     justify-content: center;
+  }
+
+  .destinations_section .more_button_area{
+    margin-top: 40px;
+    margin-bottom: 80px; /**TODO look fro margins in mobile*/
   }
 
   .more_button {
@@ -789,7 +793,7 @@ header {
 
 @media (min-width: 391px) {
   .stories_section .orange_header2 {
-    /**TODO Change*/
+    margin-bottom: 40px;
   }
 
   .footer_background {
@@ -801,6 +805,10 @@ header {
     background-color: #ffffffb2;
     padding-bottom: 40px;
     padding-top: 40px;
+  }
+
+  .stories_area {
+    padding-top: 0;
   }
 
   .stories_flex {
