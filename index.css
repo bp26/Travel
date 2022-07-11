@@ -265,6 +265,9 @@ header {
   background-color: transparent;
   margin-left: 16px;
   margin-top: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 
   font-family: "Aleo", serif;
   font-weight: 400;
