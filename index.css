@@ -326,7 +326,7 @@ header {
   }
 
   .preview_text {
-    margin-top: 35px;
+    margin-top: 33px;
     margin-bottom: 44px;
     font-size: 20px;
   }
@@ -813,12 +813,14 @@ header {
 
   .stories_flex {
     align-items: flex-start;
-    gap: 40px;
+    gap: 41px;
+    margin-left: 0;
+    margin-right: 0;
     padding-bottom: 30px; /*TODO Change margins to 0*/
   }
 
   .stories_area img {
-    width: 28%;
+    width: 27.7%;
     height: 250px;
     border-radius: 16px;
     filter: drop-shadow(0px 4px 4px #0d606f);
