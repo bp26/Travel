@@ -159,12 +159,13 @@ header {
   }
 
   .website_name {
-    width: 32%;
+    width: 30%;
     justify-content: center;
+    align-items: baseline;
   }
 
   .website_name img {
-    margin-left: 0;
+    margin-right: 2%;
   }
 
   .website_name h2 {
@@ -211,7 +212,7 @@ header {
 
   .login_button {
     width: 103px;
-    margin-right: 30%;
+    margin-right: 34%;
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
@@ -221,6 +222,7 @@ header {
     color: white;
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
+    font-size: 16px;
   }
 
   .login_button:hover {
