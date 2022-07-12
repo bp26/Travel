@@ -21,6 +21,7 @@ body {
 
 .wrapper {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -285,7 +286,6 @@ header {
   font-size: 14px;
   font-style: italic;
   color: #f2785c;
-  line-height: 17px;
 }
 
 .do_form input::placeholder {
