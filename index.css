@@ -415,7 +415,7 @@ header {
 }
 
 .steps_picture_div:nth-of-type(2) {
-  margin-left: 2.1%;
+  margin-left: 2.6%;
 }
 
 .steps_vector {
@@ -429,7 +429,7 @@ header {
 }
 
 .right_vector {
-  margin-left: 11%;
+  margin-left: 13.5%;
 }
 
 .steps_icon_bycycle {
@@ -454,7 +454,7 @@ header {
 }
 
 .steps_text {
-  margin-top: 20px;
+  margin-top: 19px;
   font-family: "Aleo", serif;
   font-weight: 400;
   font-size: 10px;
