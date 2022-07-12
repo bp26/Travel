@@ -636,11 +636,10 @@ header {
   .destination_pictures {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 5%;
+    gap: 2%;
   }
   .destination_div1 {
-    width: 30%;
+    width: 32%;
     height: auto;
   }
 
@@ -648,7 +647,7 @@ header {
   .destination_div3 {
     display: block;
     position: relative;
-    width: 30%;
+    width: 32%;
     height: auto;
   }
 
@@ -659,9 +658,9 @@ header {
 
   .inner_text {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    font-size: 20px;
+    left: 5%;
+    top: 80%;
+    font-size: 16px;
   }
 
   .destination_arrows {
@@ -730,7 +729,6 @@ header {
   .destination_pictures {
     overflow: hidden;
     gap: 60px;
-    flex-wrap: nowrap;
   }
 
   .destination_div1, .destination_div2,
