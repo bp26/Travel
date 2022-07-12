@@ -43,7 +43,8 @@ body {
 
 header {
   min-height: 251px;
-  background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%), url(img/header_background.jpg); 
+  background: linear-gradient(180deg, #0d606f 0%, rgba(13, 96, 111, 0) 25.1%),
+    url(img/header_background.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -278,9 +279,6 @@ header {
   background-color: transparent;
   margin-left: 16px;
   margin-top: 2px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 
   font-family: "Aleo", serif;
   font-weight: 400;
@@ -376,12 +374,12 @@ header {
 }
 @media (min-width: 390px) and (max-width: 600px) {
   .do_form input {
-    font-size: 16px; 
-    } 
-  .do_form input::placeholder { 
     font-size: 16px;
- }
- }
+  }
+  .do_form input::placeholder {
+    font-size: 16px;
+  }
+}
 /** Main start */
 
 /**Steps section*/
@@ -506,11 +504,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: #0d606f;
-  }
-
-  .steps_text br {
-    /*TODO CHANGE*/
-    display: none;
+    white-space: normal;
   }
 }
 
@@ -708,7 +702,7 @@ header {
     justify-content: center;
   }
 
-  .destinations_section .more_button_area{
+  .destinations_section .more_button_area {
     margin-top: 40px;
     margin-bottom: 80px; /**TODO look fro margins in mobile*/
   }
@@ -927,7 +921,7 @@ header {
   }
 
   .footer_empty_space {
-  display: block;
+    display: block;
   }
 
   .main_footer_social {
@@ -954,4 +948,3 @@ header {
     display: block;
   }
 }
-
