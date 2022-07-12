@@ -519,6 +519,12 @@ header {
   }
 }
 
+@media (min-width: 1400px) {  /**TODO Not necessary*/
+  .steps_picture_div:nth-of-type(3) {
+    margin-right: 4%;
+  }
+}
+
 /**Destinations section*/
 
 .destinations_section .orange_header2 {
