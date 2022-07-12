@@ -283,7 +283,7 @@ header {
 
   font-family: "Aleo", serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13.3px;
   font-style: italic;
   color: #f2785c;
 }
@@ -291,7 +291,7 @@ header {
 .do_form input::placeholder {
   font-family: "Aleo", serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13.3px;
   font-style: italic;
   color: #f2785c;
 }
@@ -342,7 +342,7 @@ header {
   .preview_text {
     margin-top: 33px;
     margin-bottom: 44px;
-    font-size: 20px;
+    font-size: 19.7px;
   }
 
   .do_form {
@@ -354,13 +354,13 @@ header {
     width: 320px;
     height: 30px;
     margin-left: 4%;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
   }
 
   .do_form input::placeholder {
     font-family: "Aleo", serif;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
     font-style: italic;
     color: #f2785c;
