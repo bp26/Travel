@@ -636,30 +636,32 @@ header {
   .destination_pictures {
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    gap: 60px;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .destination_div1 {
+    width: 30%;
+    height: auto;
   }
 
   .destination_div2,
   .destination_div3 {
     display: block;
     position: relative;
+    width: 30%;
+    height: auto;
   }
 
   .destination_pictures img {
-    border-radius: 16px;
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: auto;
   }
 
   .inner_text {
     position: absolute;
-    left: 15px;
-    top: 718px;
-    font-family: "Red Hat Text", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    color: white;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
   }
 
   .destination_arrows {
@@ -721,6 +723,36 @@ header {
 
   .more_button:hover {
     background-color: green;
+  }
+}
+
+@media (min-width: 1300px) {
+  .destination_pictures {
+    overflow: hidden;
+    gap: 60px;
+    flex-wrap: nowrap;
+  }
+
+  .destination_div1, .destination_div2,
+  .destination_div3 {
+    display: block;
+    position: relative;
+    width: auto;
+  }
+
+  .destination_pictures img {
+    width: 800px;
+    height: 800px;
+  }
+
+  .inner_text {
+    position: absolute;
+    left: 15px;
+    top: 718px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
   }
 }
 
