@@ -6,6 +6,7 @@ const link = document.querySelectorAll(".link");
 const overlay = document.querySelector(".overlay");
 const cross = document.querySelector(".cross");
 const body = document.querySelector("body");
+const account = document.querySelector('.link_account')
 
 function toggleOpen() {
   navigation_header.setAttribute("toggled-open", "true");
@@ -46,6 +47,13 @@ link.forEach(function (link) {
   });
 });
 
+account.addEventListener("click", () => {
+  const expanded = navigation_header.getAttribute("toggled-open");
+  if (expanded === "true") {
+    toggleClose();
+  }
+});
+
 overlay.addEventListener("click", () => {
   const expanded = navigation_header.getAttribute("toggled-open");
   if (expanded === "true") {
@@ -59,3 +67,5 @@ screenWidth.addEventListener("change", () => {
     toggleClose();
   }
 });
+
+console.log()

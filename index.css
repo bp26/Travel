@@ -109,12 +109,12 @@ header {
   padding-top: 13px;
 }
 
-.nav_link a {
+.nav_link .link {
   color: white;
   font-family: "Red Hat Text", sans-serif;
 }
 
-.nav_link a:hover {
+.nav_link .link:hover {
   text-decoration: underline;
   color: yellow;
 }
