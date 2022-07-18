@@ -174,7 +174,7 @@ header {
 }
 
 .popup_content {
-  width: 600px;
+  width: 650px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -185,6 +185,11 @@ header {
 }
 
 .popup_title {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #0D606F;
 }
 
 /* Media for main header*/
