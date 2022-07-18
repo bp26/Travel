@@ -304,11 +304,38 @@ header {
   color: #FFFFFF;
 }
 
+.popup_forget_password {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration-line: underline;
+  text-align: center;
+  color: #0D606F;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
 .popup_line {
   content: '';
   width: 100%; /*TODO CHANGE */
   border: 1px solid rgba(13, 96, 111, 0.5);
 }
+
+.log_register_link {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(13, 96, 111, 0.5);
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+.popup_button_link {
+  color: rgba(13, 96, 111, 1);
+  text-decoration-line: underline;
+}
+
 /* Media for main header*/
 
 @media (min-width: 391px) {
