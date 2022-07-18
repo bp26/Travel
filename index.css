@@ -169,12 +169,13 @@ header {
 }
 
 .popup_content {
-  max-width: 800px;
+  width: 600px;
   height: 500px;
   background-color: white;
-}
-.popup_content p {
   color: black;
+}
+
+.popup_title {
 }
 
 /* Media for main header*/
