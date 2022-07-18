@@ -174,7 +174,7 @@ header {
 }
 
 .popup_content {
-  width: 650px;
+  width: 560px;
   height: 500px;
   padding: 25px 45px; /*change*/
   display: flex;
