@@ -176,6 +176,7 @@ header {
 .popup_content {
   width: 650px;
   height: 500px;
+  padding: 25px 45px; /*change*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,6 +193,74 @@ header {
   color: #0D606F;
 }
 
+.popup_accounts_block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_logo_button {
+  width: 100%; /*560px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15.5px;
+  padding: 15px 0;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.blue_logo_button {
+  background-color: #1877F2;;
+}
+
+.white_logo_button {
+  background-color: #FFFFFF;
+}
+
+.popup_logo_text {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.green_logo_text {
+  color: #0D606F;;
+}
+
+.popup_or_line {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(13, 96, 111, 0.5);
+  text-align: center;
+  position: relative;
+}
+.popup_or_line::before {
+  content: '';
+  position: absolute;
+  left: 150%;
+  width: 300px; /*TODO CHANGE */
+  top: 50%;
+  border: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+
+.popup_or_line::after {
+    content: '';
+    position: absolute;
+    right: 150%;
+    width: 300px;
+    top: 50%;
+    border: 1px solid rgba(13, 96, 111, 0.5);
+}
 /* Media for main header*/
 
 @media (min-width: 391px) {
