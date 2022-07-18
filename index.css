@@ -156,8 +156,13 @@ header {
   left: 0;
   background-color: rgba(0, 0, 0, 0.25);
   z-index: 9000;
-  /*opacity: 0;
-  visibility: hidden;*/
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup_open {
+  opacity: 1;
+  visibility: visible;
 }
 
 .popup_area {
@@ -171,6 +176,10 @@ header {
 .popup_content {
   width: 600px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   color: black;
 }
