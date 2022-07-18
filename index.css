@@ -148,6 +148,35 @@ header {
   display: none;
 }
 
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 9000;
+  /*opacity: 0;
+  visibility: hidden;*/
+}
+
+.popup_area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_content {
+  max-width: 800px;
+  height: 500px;
+  background-color: white;
+}
+.popup_content p {
+  color: black;
+}
+
 /* Media for main header*/
 
 @media (min-width: 391px) {
@@ -522,7 +551,8 @@ header {
   }
 }
 
-@media (min-width: 1400px) {  /**TODO Not necessary*/
+@media (min-width: 1400px) {
+  /**TODO Not necessary*/
   .steps_picture_div:nth-of-type(3) {
     margin-right: 4%;
   }
@@ -751,7 +781,8 @@ header {
     gap: 60px;
   }
 
-  .destination_div1, .destination_div2,
+  .destination_div1,
+  .destination_div2,
   .destination_div3 {
     display: block;
     position: relative;
