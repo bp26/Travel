@@ -303,6 +303,12 @@ header {
   font-size: 20px;
   color: #FFFFFF;
 }
+
+.popup_line {
+  content: '';
+  width: 100%; /*TODO CHANGE */
+  border: 1px solid rgba(13, 96, 111, 0.5);
+}
 /* Media for main header*/
 
 @media (min-width: 391px) {
