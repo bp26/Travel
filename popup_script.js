@@ -1,23 +1,25 @@
 const popup = document.querySelector(".popup");
 const login = document.querySelector(".login_button");
-const popupContent = document.querySelector('.popup_content')
+const popupContent = document.querySelector(".popup_content");
+const linkAccount = document.querySelector(".link_account");
 
+function popupOpenClose() {
+  document.body.classList.toggle("fixed");
+  popup.classList.toggle("popup_open");
+  popupContent.classList.toggle("popup_content_transform");
+}
 
 login.addEventListener("click", (event) => {
-  document.body.classList.toggle('fixed')
-  popup.classList.toggle("popup_open");
-  popupContent.classList.toggle('popup_content_transform')
+  popupOpenClose();
 });
 
-
+linkAccount.addEventListener("click", (event) => {
+  popupOpenClose();
+});
 
 popup.addEventListener("click", (event) => {
   console.log(event);
-  if (event.target.classList.contains('popup'))
-    document.body.classList.toggle('fixed')
-    popup.classList.toggle("popup_open");
-    popupContent.classList.toggle('popup_content_transform')
+  if (event.target.classList.contains("popup")) {
+    popupOpenClose();
+  }
 });
-
-
-
