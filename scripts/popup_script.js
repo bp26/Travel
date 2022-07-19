@@ -3,6 +3,8 @@ const login = document.querySelector(".login_button");
 const popupContent = document.querySelector(".popup_content");
 const linkAccount = document.querySelector(".link_account");
 
+/* Popup open-close toggle */
+
 function popupOpenClose() {
   document.body.classList.toggle("fixed");
   popup.classList.toggle("popup_open");
@@ -24,3 +26,5 @@ popup.addEventListener("click", (event) => {
     popupOpenClose();
   }
 });
+
+/* Popup switch toggle */
