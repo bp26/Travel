@@ -172,11 +172,11 @@ header {
 
 .popup_content {
   width: 560px;
-  height: 500px;
+  height: auto;
   padding: 25px 45px; /*change*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   transform: translateY(-100%);
   transition: 1s;
@@ -196,6 +196,7 @@ header {
   font-weight: 700;
   font-size: 32px;
   color: #0d606f;
+  margin-top: 10px;
 }
 
 .popup_accounts_block {
@@ -224,6 +225,15 @@ header {
   outline: none;
 }
 
+.popup_logo_button:first-of-type {
+  margin-bottom: 21px;
+  margin-top: 30px;
+}
+
+.popup_logo_button:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
 .blue_logo_button {
   background-color: #1877f2;
 }
@@ -236,7 +246,7 @@ header {
   font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   color: #ffffff;
 }
 
@@ -252,7 +262,10 @@ header {
   color: rgba(13, 96, 111, 0.5);
   text-align: center;
   position: relative;
+
+  margin-bottom: 12px;
 }
+
 .popup_or_line::before {
   content: "";
   position: absolute;
@@ -278,6 +291,10 @@ header {
   justify-content: center;
 }
 
+.popup_common_block form:first-of-type {
+  margin-bottom: 20px;
+}
+
 .popup_form_label {
   font-family: "Aleo";
   font-style: normal;
@@ -296,6 +313,7 @@ header {
   border-radius: 10px;
   border: none;
   outline: none;
+  margin-top: 5px;
 }
 
 .popup_sign_button {
@@ -312,6 +330,9 @@ header {
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
+
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .popup_forget_password {
@@ -323,12 +344,16 @@ header {
   text-align: center;
   color: #0d606f;
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+
+  margin-bottom: 26px;
 }
 
 .popup_line {
   content: "";
   width: 100%; /*TODO CHANGE */
   border: 1px solid rgba(13, 96, 111, 0.5);
+
+  margin-bottom: 20px;
 }
 
 .log_register_link {
