@@ -7,6 +7,7 @@ const popupAccountsBlock = document.querySelector(".popup_accounts_block");
 const popupTitle = document.querySelector(".popup_title");
 const popupSignButton = document.querySelector("popup_sign_button");
 const popupBelowText = document.querySelector(".popup_changeable_text");
+const popupForgetPassword = document.querySelector('.popup_forget_password')
 
 /* Popup open-close toggle */
 
@@ -39,6 +40,7 @@ popup.addEventListener("click", (event) => {
 
 function popupSwitchOpen() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
+  popupForgetPassword.classList.toggle('popup_hidden_forget_password')
   popupTitle.innerHTML = "Create account";
   popupBelowText.innerHTML = "Already have an account?";
   popupButtonLink.innerHTML = "Log In";
@@ -47,6 +49,7 @@ function popupSwitchOpen() {
 
 function popupSwitchClose() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
+  popupForgetPassword.classList.toggle('popup_hidden_forget_password')
   popupTitle.innerHTML = "Log in to your account";
   popupBelowText.innerHTML = "Don't have an account?";
   popupButtonLink.innerHTML = "Register";

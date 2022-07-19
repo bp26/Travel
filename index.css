@@ -197,7 +197,8 @@ header {
   font-weight: 700;
   font-size: 32px;
   color: #0d606f;
-  margin-top: 10px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .popup_accounts_block {
@@ -228,7 +229,6 @@ header {
 
 .popup_logo_button:first-of-type {
   margin-bottom: 21px;
-  margin-top: 30px;
 }
 
 .popup_logo_button:nth-of-type(2) {
@@ -271,7 +271,7 @@ header {
   content: "";
   position: absolute;
   left: 150%;
-  width: 300px; /*TODO CHANGE */
+  width: 1320%; 
   top: 50%;
   border: 1px solid rgba(13, 96, 111, 0.5);
 }
@@ -280,7 +280,7 @@ header {
   content: "";
   position: absolute;
   right: 150%;
-  width: 300px;
+  width: 1320%;
   top: 50%;
   border: 1px solid rgba(13, 96, 111, 0.5);
 }
@@ -329,7 +329,7 @@ header {
   font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19.5px;
   color: #ffffff;
 
   margin-top: 25px;
@@ -347,6 +347,10 @@ header {
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
 
   margin-bottom: 26px;
+}
+
+.popup_hidden_forget_password {
+  display: none;
 }
 
 .popup_line {
