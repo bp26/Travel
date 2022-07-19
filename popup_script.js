@@ -15,6 +15,7 @@ login.addEventListener("click", (event) => {
 
 linkAccount.addEventListener("click", (event) => {
   popupOpenClose();
+  event.preventDefault();
 });
 
 popup.addEventListener("click", (event) => {
