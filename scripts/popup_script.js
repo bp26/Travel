@@ -2,6 +2,8 @@ const popup = document.querySelector(".popup");
 const login = document.querySelector(".login_button");
 const popupContent = document.querySelector(".popup_content");
 const linkAccount = document.querySelector(".link_account");
+const popupButtonLink = document.querySelector(".popup_button_link");
+const popupAccountsBlock = document.querySelector(".popup_accounts_block");
 
 /* Popup open-close toggle */
 
@@ -28,3 +30,7 @@ popup.addEventListener("click", (event) => {
 });
 
 /* Popup switch toggle */
+
+popupButtonLink.addEventListener("click", (event) => {
+  popupAccountsBlock.classList.toggle("popup_accounts_hidden");
+});

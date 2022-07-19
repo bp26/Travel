@@ -163,7 +163,6 @@ header {
   z-index: 9000;
   opacity: 0;
   visibility: hidden;
-  
 }
 
 .popup_open {
@@ -181,10 +180,10 @@ header {
   align-items: center;
   transform: translateY(-100%);
   transition: 1s;
-  
-  background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+
+  background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 16px;  
+  border-radius: 16px;
 }
 
 .popup_content_transform {
@@ -192,11 +191,11 @@ header {
 }
 
 .popup_title {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  color: #0D606F;
+  color: #0d606f;
 }
 
 .popup_accounts_block {
@@ -207,6 +206,10 @@ header {
   align-items: center;
 }
 
+.popup_accounts_hidden {
+  display: none;
+}
+
 .popup_logo_button {
   width: 100%; /*560px*/
   display: flex;
@@ -214,34 +217,35 @@ header {
   align-items: center;
   gap: 15.5px;
   padding: 15px 0;
-  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: none;
   outline: none;
 }
 
 .blue_logo_button {
-  background-color: #1877F2;;
+  background-color: #1877f2;
 }
 
 .white_logo_button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .popup_logo_text {
-  font-family: 'Red Hat Text';
+  font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .green_logo_text {
-  color: #0D606F;;
+  color: #0d606f;
 }
 
 .popup_or_line {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -250,7 +254,7 @@ header {
   position: relative;
 }
 .popup_or_line::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 150%;
   width: 300px; /*TODO CHANGE */
@@ -259,12 +263,12 @@ header {
 }
 
 .popup_or_line::after {
-    content: '';
-    position: absolute;
-    right: 150%;
-    width: 300px;
-    top: 50%;
-    border: 1px solid rgba(13, 96, 111, 0.5);
+  content: "";
+  position: absolute;
+  right: 150%;
+  width: 300px;
+  top: 50%;
+  border: 1px solid rgba(13, 96, 111, 0.5);
 }
 
 .popup_common_block {
@@ -275,19 +279,20 @@ header {
 }
 
 .popup_form_label {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #0D606F;
+  color: #0d606f;
 }
 
 .popup_form_input {
   display: block;
   width: 100%;
   height: 54px;
-  background: #FFFFFF;
-  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+    inset 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: none;
   outline: none;
@@ -296,37 +301,38 @@ header {
 .popup_sign_button {
   width: 100%;
   height: 54px;
-  background: #0D606F;
-  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  background: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: none;
 
-  font-family: 'Red Hat Text';
+  font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .popup_forget_password {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   text-decoration-line: underline;
   text-align: center;
-  color: #0D606F;
+  color: #0d606f;
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
 }
 
 .popup_line {
-  content: '';
+  content: "";
   width: 100%; /*TODO CHANGE */
   border: 1px solid rgba(13, 96, 111, 0.5);
 }
 
 .log_register_link {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
