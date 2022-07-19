@@ -40,19 +40,23 @@ popup.addEventListener("click", (event) => {
 function popupSwitchOpen() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
   popupTitle.innerHTML = "Create account";
-  popupSignButton.innerHTML = "Sign Up";
   popupBelowText.innerHTML = "Already have an account?";
   popupButtonLink.innerHTML = "Log In";
+  popupSignButton.innerHTML = "Sign Up";
 }
 
 function popupSwitchClose() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
   popupTitle.innerHTML = "Log in to your account";
-  popupSignButton.innerHTML = "Sign In";
   popupBelowText.innerHTML = "Don't have an account?";
   popupButtonLink.innerHTML = "Register";
+  popupSignButton.innerHTML = "Sign In";
 }
 
 popupButtonLink.addEventListener("click", (event) => {
-  popupSwitchOpen();
+  if (popupButtonLink.innerHTML !== "Log In") {
+    popupSwitchOpen();
+  } else {
+    popupSwitchClose();
+  }
 });
