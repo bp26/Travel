@@ -29,7 +29,6 @@ linkAccount.addEventListener("click", (event) => {
 });
 
 popup.addEventListener("click", (event) => {
-  console.log(event);
   if (event.target.classList.contains("popup")) {
     popupOpenClose();
     if (popupAccountsBlock.classList.contains("popup_accounts_hidden")) {
