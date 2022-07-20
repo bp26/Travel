@@ -20,7 +20,9 @@ function toggleClose() {
   overlay.setAttribute("toggled-open", "false");
   burger.setAttribute("toggled-open", "false");
   cross.setAttribute("toggled-open", "false");
-  document.body.classList.remove("fixed");
+  if (popup.classList.contains('popup_open') === false) {
+    document.body.classList.remove("fixed");
+  }
 }
 
 burger.addEventListener("click", () => {
