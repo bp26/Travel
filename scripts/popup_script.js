@@ -5,9 +5,11 @@ const linkAccount = document.querySelector(".link_account");
 const popupButtonLink = document.querySelector(".popup_button_link");
 const popupAccountsBlock = document.querySelector(".popup_accounts_block");
 const popupTitle = document.querySelector(".popup_title");
-const popupSignButton = document.querySelector("popup_sign_button");
+const popupSignButton = document.querySelector(".popup_sign_button");
 const popupBelowText = document.querySelector(".popup_changeable_text");
-const popupForgetPassword = document.querySelector('.popup_forget_password')
+const popupForgetPassword = document.querySelector(".popup_forget_password");
+const email = document.querySelector("#email");
+const password = document.querySelector("#password");
 
 /* Popup open-close toggle */
 
@@ -40,7 +42,7 @@ popup.addEventListener("click", (event) => {
 
 function popupSwitchOpen() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
-  popupForgetPassword.classList.toggle('popup_hidden_forget_password')
+  popupForgetPassword.classList.toggle("popup_hidden_forget_password");
   popupTitle.innerHTML = "Create account";
   popupBelowText.innerHTML = "Already have an account?";
   popupButtonLink.innerHTML = "Log In";
@@ -49,7 +51,7 @@ function popupSwitchOpen() {
 
 function popupSwitchClose() {
   popupAccountsBlock.classList.toggle("popup_accounts_hidden");
-  popupForgetPassword.classList.toggle('popup_hidden_forget_password')
+  popupForgetPassword.classList.toggle("popup_hidden_forget_password");
   popupTitle.innerHTML = "Log in to your account";
   popupBelowText.innerHTML = "Don't have an account?";
   popupButtonLink.innerHTML = "Register";
@@ -62,4 +64,10 @@ popupButtonLink.addEventListener("click", (event) => {
   } else {
     popupSwitchClose();
   }
+});
+
+/*Popup Input Alert*/
+
+popupSignButton.addEventListener("click", (event) => {
+  alert(`E-mail: ${email.value}\nPassword: ${password.value}`);
 });

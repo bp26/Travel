@@ -23,7 +23,6 @@
   </head>
 
   <body>
-    
     <div class="wrapper">
       <div class="overlay" toggled-open="false"></div>
       <header>
@@ -39,37 +38,37 @@
           </div>
 
           <nav>
-            <ul class="navigation_header" toggled-open = 'false'>
-              <li class = 'cross' toggled-open = 'false'>
+            <ul class="navigation_header" toggled-open="false">
+              <li class="cross" toggled-open="false">
                 <div>
-                  <img src = 'img/crest.svg' height="15px" width="15px">
+                  <img src="img/crest.svg" height="15px" width="15px" />
                 </div>
               </li>
               <li class="nav_link first_link">
-                <a class = 'link' href="#preview_section">How It Works</a>
+                <a class="link" href="#preview_section">How It Works</a>
               </li>
               <li class="nav_link">
-                <a class = 'link' href="#steps_section">Plan Your Trip</a>
+                <a class="link" href="#steps_section">Plan Your Trip</a>
               </li>
               <li class="nav_link">
-                <a class = 'link' href="#destinations_section">Destinations</a>
+                <a class="link" href="#destinations_section">Destinations</a>
               </li>
               <li class="nav_link">
-                <a class = 'link' href="#stories_section">Travel Stories</a>
+                <a class="link" href="#stories_section">Travel Stories</a>
               </li>
-              <li class = 'nav_link hidden_link'>
-                <a class = 'link link_account' href=''>Account</a>
+              <li class="nav_link hidden_link">
+                <a class="link link_account" href="">Account</a>
               </li>
-              <li class = 'nav_link hidden_link'>
-                  <a class = 'link' href='#social'>Social media</a>
+              <li class="nav_link hidden_link">
+                <a class="link" href="#social">Social media</a>
               </li>
             </ul>
           </nav>
 
-          <div class = 'burger' toggled-open = 'false'>
-            <img src = 'img/hamburger_line.png' alt = 'burger_line'>
-            <img src = 'img/hamburger_line.png' alt = 'burger_line'>
-            <img src = 'img/hamburger_line.png' alt = 'burger_line'>
+          <div class="burger" toggled-open="false">
+            <img src="img/hamburger_line.png" alt="burger_line" />
+            <img src="img/hamburger_line.png" alt="burger_line" />
+            <img src="img/hamburger_line.png" alt="burger_line" />
           </div>
 
           <div class="login_button_area">
@@ -77,45 +76,57 @@
           </div>
         </div>
 
-        <div class = 'popup'> 
-          <div class = 'popup_content'>
-            <h3 class = 'popup_title'> Log in to your account</h3>
-            <div class = 'popup_accounts_block'>
-              <button class = 'popup_logo_button blue_logo_button'> <img src="img/Facebook Logo.svg"> <span class = 'popup_logo_text'>Sign in with Facebook </span></button>
-              <button class = 'popup_logo_button white_logo_button'> <img src="img/Google Logo.svg"> <span class = 'popup_logo_text green_logo_text'> Sign in with Google </span></button>
-              <span class = 'popup_or_line'>or</span>
+        <div class="popup">
+          <div class="popup_content">
+            <h3 class="popup_title">Log in to your account</h3>
+            <div class="popup_accounts_block">
+              <button class="popup_logo_button blue_logo_button">
+                <img src="img/Facebook Logo.svg" />
+                <span class="popup_logo_text">Sign in with Facebook </span>
+              </button>
+              <button class="popup_logo_button white_logo_button">
+                <img src="img/Google Logo.svg" />
+                <span class="popup_logo_text green_logo_text">
+                  Sign in with Google
+                </span>
+              </button>
+              <span class="popup_or_line">or</span>
             </div>
-            <div class = 'popup_common_block'>
-
+            <div class="popup_common_block">
               <form>
-                <label class = 'popup_form_label'>
+                <label class="popup_form_label">
                   E-mail
-                  <input class = 'popup_form_input' type = 'text'>
+                  <input id="email" class="popup_form_input" type="E-mail" />
                 </label>
               </form>
 
               <form>
                 <label class="popup_form_label">
                   Password
-                  <input class = 'popup_form_input' type = 'password'>
+                  <input
+                    id="password"
+                    class="popup_form_input"
+                    type="password"
+                  />
                 </label>
               </form>
 
-              <button class = 'popup_sign_button'> Sign In</button>
-              <p class = 'popup_forget_password'>Forgot Your Password?</p>
-              <span class = 'popup_line'></span>
-              <div class = 'log_register_link'>
-                <span class = 'popup_changeable_text'> Don't have an account? </span>
-                <a class = 'popup_button_link'>Register</a>
+              <button class="popup_sign_button">Sign In</button>
+              <p class="popup_forget_password">Forgot Your Password?</p>
+              <span class="popup_line"></span>
+              <div class="log_register_link">
+                <span class="popup_changeable_text">
+                  Don't have an account?
+                </span>
+                <a class="popup_button_link">Register</a>
               </div>
-              
             </div>
-          </div>  
+          </div>
         </div>
 
         <section class="preview_section">
-          <h1 class = 'preview_header'>Explore the beauty of the World</h1>
-          <p class = 'preview_text'>
+          <h1 class="preview_header">Explore the beauty of the World</h1>
+          <p class="preview_text">
             Receive personalized recommendations for countries, hotels,
             activities and more
           </p>
@@ -126,153 +137,279 @@
               placeholder="What would you like to do?"
             />
             <button class="do_form_button">Start Planning</button>
-          </form>  
+          </form>
         </section>
       </header>
 
-      
       <main>
-
-        <section class = 'steps_section'>
-          <h2 class = 'orange_header2' id = "steps_section">3 STEPS TO THE PERFECT TRIP</h2>
-          <div class = 'steps_section_pictures'>
-            <div class = 'steps_picture_div'>
-              <div class = steps_vector>
+        <section class="steps_section">
+          <h2 class="orange_header2" id="steps_section">
+            3 STEPS TO THE PERFECT TRIP
+          </h2>
+          <div class="steps_section_pictures">
+            <div class="steps_picture_div">
+              <div class="steps_vector">
                 <div class="steps_icon_bycycle"></div>
               </div>
 
-              <pre class = 'steps_text'>Tell us what you
-want to do</pre>
-
+              <pre class="steps_text">
+Tell us what you
+want to do</pre
+              >
             </div>
-            <div class = 'steps_picture_div'>
-              <div class = 'steps_vector'>  
-                <div class = 'steps_icon_calendar'></div>
+            <div class="steps_picture_div">
+              <div class="steps_vector">
+                <div class="steps_icon_calendar"></div>
               </div>
-              <p class = 'steps_text'>Share us preferable dates</p>
+              <p class="steps_text">Share us preferable dates</p>
             </div>
-            <div class = 'steps_picture_div'>
-              <div class = 'steps_vector right_vector'>  
-                <div class = 'steps_icon_recommendations'></div>
+            <div class="steps_picture_div">
+              <div class="steps_vector right_vector">
+                <div class="steps_icon_recommendations"></div>
               </div>
-              
-              <pre class = 'steps_text'>   We will give you
-recommendations</pre>
 
+              <pre class="steps_text">
+   We will give you
+recommendations</pre
+              >
             </div>
           </div>
         </section>
-      
 
-        <section class = 'destinations_section'>
-          <h2 class = 'orange_header2' id = 'destinations_section'>POPULAR DESTINATIONS</h2>
-          <div class ='destination_pictures'>
-            <div class = 'destination_div1'>
-              <img class = 'destination_picture_img' src="img/norvegia_image.jpg" alt ='destination_picture1'>
-              <span class = 'inner_text'>SPAIN</span>
+        <section class="destinations_section">
+          <h2 class="orange_header2" id="destinations_section">
+            POPULAR DESTINATIONS
+          </h2>
+          <div class="destination_pictures">
+            <div class="destination_div1">
+              <img
+                class="destination_picture_img"
+                src="img/norvegia_image.jpg"
+                alt="destination_picture1"
+              />
+              <span class="inner_text">SPAIN</span>
             </div>
-            <div class = 'destination_div2'>
-              <img class = 'destination_picture_img' src="img/japan_image.jpg" alt ='destination_picture2'>
-              <span class = 'inner_text'>JAPAN</span>
+            <div class="destination_div2">
+              <img
+                class="destination_picture_img"
+                src="img/japan_image.jpg"
+                alt="destination_picture2"
+              />
+              <span class="inner_text">JAPAN</span>
             </div>
-            <div class = 'destination_div3'>
-              <img class="destination_picture_img" src="img/usa_image.jpg" alt ='destination_picture3'>
-              <span class = "inner_text">USA</span>
+            <div class="destination_div3">
+              <img
+                class="destination_picture_img"
+                src="img/usa_image.jpg"
+                alt="destination_picture3"
+              />
+              <span class="inner_text">USA</span>
             </div>
-            <div class = 'destination_arrows'>
-              <img src = 'img/destinations_arrow1.svg' width="40px" height="25px">
-              <img src = 'img/destinations_arrow.svg' width="40px" height="25px">
+            <div class="destination_arrows">
+              <img
+                src="img/destinations_arrow1.svg"
+                width="40px"
+                height="25px"
+              />
+              <img
+                src="img/destinations_arrow.svg"
+                width="40px"
+                height="25px"
+              />
             </div>
-            <div class = 'pixel_group'>
-              <button class = 'pixel pixel_button_1'></button>
-              <button class = 'pixel pixel_button_2'></button>
-              <button class = 'pixel pixel_button_3'></button>
+            <div class="pixel_group">
+              <button class="pixel pixel_button_1"></button>
+              <button class="pixel pixel_button_2"></button>
+              <button class="pixel pixel_button_3"></button>
             </div>
           </div>
-          <div class = 'pixel_group_new'>
-            <button class = 'pixel pixel_button_1'></button>
-            <button class = 'pixel pixel_button_2'></button>
-            <button class = 'pixel pixel_button_3'></button>
+          <div class="pixel_group_new">
+            <button class="pixel pixel_button_1"></button>
+            <button class="pixel pixel_button_2"></button>
+            <button class="pixel pixel_button_3"></button>
           </div>
-          <div class = 'more_button_area'>
-            <button class = 'more_button'>
-              <img class = 'more_button_arrow' src = 'img/Find_More_Arrow.svg' alt = 'arrow'>
+          <div class="more_button_area">
+            <button class="more_button">
+              <img
+                class="more_button_arrow"
+                src="img/Find_More_Arrow.svg"
+                alt="arrow"
+              />
               Find More
             </button>
           </div>
-        </section> 
-
+        </section>
       </main>
 
-      <section class = 'stories_section'>
-        <h2 class = 'orange_header2' id = 'stories_section'>TRAVEL STORIES</h2>
-        <div class = 'footer_background'>
-
-          <div class = 'white_background'>
-            <div class = 'stories_area'>
-              <div class = 'stories_flex'>
-                <img src = 'img/story_picture1.jpg' alt = 'pic'>
-                <article class = 'story_block'>
-                  <h3 class = 'story_title'>10 Photos of Attractive Thailand </h3>
-                  <p lang="zxx" class = 'mobile_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<a href = ''>Read More</a></p>
-                  <p lang="zxx" class = 'story_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href = ''>Read More</a> </p>
+      <section class="stories_section">
+        <h2 class="orange_header2" id="stories_section">TRAVEL STORIES</h2>
+        <div class="footer_background">
+          <div class="white_background">
+            <div class="stories_area">
+              <div class="stories_flex">
+                <img src="img/story_picture1.jpg" alt="pic" />
+                <article class="story_block">
+                  <h3 class="story_title">10 Photos of Attractive Thailand</h3>
+                  <p lang="zxx" class="mobile_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                    a...<a href="">Read More</a>
+                  </p>
+                  <p lang="zxx" class="story_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit...
+                    <a href="">Read More</a>
+                  </p>
                 </article>
               </div>
-              <div class = 'stories_flex'>
-                <img src = 'img/story_picture2.jpg' alt = 'pic'>
-                <article class = 'story_block'>
-                  <h3 class = 'story_title'>Canyonlands National Park, Utah </h3>
-                  <p lang="zxx" class = 'mobile_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<a href = ''>Read More</a></p>
-                  <p lang="zxx" class = 'story_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href = ''>Read More</a> </p>
+              <div class="stories_flex">
+                <img src="img/story_picture2.jpg" alt="pic" />
+                <article class="story_block">
+                  <h3 class="story_title">Canyonlands National Park, Utah</h3>
+                  <p lang="zxx" class="mobile_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                    a...<a href="">Read More</a>
+                  </p>
+                  <p lang="zxx" class="story_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit...
+                    <a href="">Read More</a>
+                  </p>
                 </article>
               </div>
-              <div class = 'stories_flex'>
-                <img src = 'img/story_picture3.jpg' alt = 'pic'>
-                <article class = 'story_block'>
-                  <h3 class = 'story_title'>I left my heart in the Mountains! </h3>
-                  <p lang="zxx" class = 'mobile_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<a href = ''>Read More</a></p>
-                  <p lang="zxx" class = 'story_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href = ''>Read More</a> </p>
+              <div class="stories_flex">
+                <img src="img/story_picture3.jpg" alt="pic" />
+                <article class="story_block">
+                  <h3 class="story_title">I left my heart in the Mountains!</h3>
+                  <p lang="zxx" class="mobile_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                    a...<a href="">Read More</a>
+                  </p>
+                  <p lang="zxx" class="story_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit...
+                    <a href="">Read More</a>
+                  </p>
                 </article>
               </div>
-              <div class = 'stories_flex'>
-                <img src = 'img/story_picture4.jpg' alt = 'pic'>
-                <article class = 'story_block'>
-                  <h3 class = 'story_title'>The Longest journey in my life! </h3>
-                  <p lang="zxx" class = 'mobile_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<a href = ''>Read More</a></p>
-                  <p lang="zxx" class = 'story_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href = ''>Read More</a> </p>
+              <div class="stories_flex">
+                <img src="img/story_picture4.jpg" alt="pic" />
+                <article class="story_block">
+                  <h3 class="story_title">The Longest journey in my life!</h3>
+                  <p lang="zxx" class="mobile_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit
+                    a...<a href="">Read More</a>
+                  </p>
+                  <p lang="zxx" class="story_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit...
+                    <a href="">Read More</a>
+                  </p>
                 </article>
               </div>
             </div>
-            <div class = 'more_button_area'>
-              <button class = 'more_button'>
-                <img class = 'more_button_arrow' src = 'img/Find_More_Arrow.svg' alt = 'arrow'>
+            <div class="more_button_area">
+              <button class="more_button">
+                <img
+                  class="more_button_arrow"
+                  src="img/Find_More_Arrow.svg"
+                  alt="arrow"
+                />
                 See More
               </button>
             </div>
-          </div> 
+          </div>
 
           <footer>
-
-            <div class = 'main_footer'>
-              <div class = 'footer_empty_space'></div>
-              <p class = 'main_footer_copyright'>All Rights Reserved © Travel Portal</p>
+            <div class="main_footer">
+              <div class="footer_empty_space"></div>
+              <p class="main_footer_copyright">
+                All Rights Reserved © Travel Portal
+              </p>
               <div>
-                <ul id = 'social' class = 'main_footer_social'>
-                  <li><a href = 'https://www.instagram.com/rsschool_news/'><img src="img/instagram_icon.svg" alt = 'instagram_icon' width = '32' height = '32'></a>
-                  <li><a href = 'https://www.youtube.com/c/RollingScopesSchool'><img src="img/youtube_icon.svg" alt = 'youtube_icon' width = '39' height = '34'></a> </li>
-                  <li><a href = 'https://twitter.com/rollingscopes'><img src = 'img/twitter_icon.svg' alt = 'twitter_icon' width = '34' height = '27'></a></li>
+                <ul id="social" class="main_footer_social">
+                  <li>
+                    <a href="https://www.instagram.com/rsschool_news/"
+                      ><img
+                        src="img/instagram_icon.svg"
+                        alt="instagram_icon"
+                        width="32"
+                        height="32"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/c/RollingScopesSchool"
+                      ><img
+                        src="img/youtube_icon.svg"
+                        alt="youtube_icon"
+                        width="39"
+                        height="34"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/rollingscopes"
+                      ><img
+                        src="img/twitter_icon.svg"
+                        alt="twitter_icon"
+                        width="34"
+                        height="27"
+                    /></a>
+                  </li>
                 </ul>
               </div>
             </div>
-    
           </footer>
-          
         </div>
       </section>
-
-      
     </div>
-    <script src = 'scripts/burger_script.js'> </script>
-    <script src = 'scripts/popup_script.js'> </script>
+    <script src="scripts/burger_script.js"></script>
+    <script src="scripts/popup_script.js"></script>
   </body>
-</html> 
+</html>
