@@ -253,35 +253,26 @@ header {
 .green_logo_text {
   color: #0d606f;
 }
+.popup_or_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
 
-.popup_or_line {
+.popup_or {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   color: rgba(13, 96, 111, 0.5);
-  text-align: center;
-  position: relative;
-
-  margin-bottom: 12px;
+  padding: 0 9px;
 }
 
-.popup_or_line::before {
-  content: "";
-  position: absolute;
-  left: 150%;
-  width: 1320%;
-  top: 50%;
-  border: 1px solid rgba(13, 96, 111, 0.5);
-}
-
-.popup_or_line::after {
-  content: "";
-  position: absolute;
-  right: 150%;
-  width: 1320%;
-  top: 50%;
-  border: 1px solid rgba(13, 96, 111, 0.5);
+.popup_or_line {
+  border-bottom: 1px solid rgba(13, 96, 111, 0.5);
+  width: 100%;
 }
 
 .popup_common_block {
@@ -362,11 +353,8 @@ header {
 }
 
 .popup_line {
-  content: "";
-  width: 100%; /*TODO CHANGE */
-  border: 1px solid rgba(13, 96, 111, 0.5);
-  margin-top: 26px;
-  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(13, 96, 111, 0.5);
+  width: 100%;
 }
 
 .log_register_link {
