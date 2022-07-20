@@ -180,7 +180,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   transform: translateY(-100%);
-  transition: transform 0.5s;
+  transition: 0.5s;
 
   background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -376,6 +376,79 @@ header {
 
 .popup_button_link:hover {
   filter: brightness(1.3);
+}
+
+@media (max-width: 650px) {
+
+  .popup_content {
+    width: 400px;
+    height: auto;
+    padding: 20px 20px; /*change*/
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .popup_title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .popup_logo_button {
+    gap: 12px;
+    padding: 11px 0;
+  }
+  
+  .popup_logo_button:first-of-type {
+    margin-bottom: 15px;
+  }
+  
+  .popup_logo_button:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+  
+  .popup_logo_text {
+    font-size: 15px;
+  }
+
+  .popup_or_div {
+    margin-bottom: 8px;
+  }
+  
+  .popup_or {
+    font-size: 15px;
+  }
+  
+  .popup_common_block form:first-of-type {
+    margin-bottom: 12px;
+  }
+  
+  .popup_form_label {
+    font-size: 12px;
+  }
+  
+  .popup_form_input {
+    height: 44px;
+    font-size: 15px;
+  }
+  
+  .popup_sign_button {
+    height: 44px;
+    font-size: 15px; 
+    margin-top: 15px;
+  }
+  .popup_forget_password {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .popup_line {
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+  
+  .log_register_link {
+    font-size: 12px;
+  } 
 }
 
 /* Media for main header*/
