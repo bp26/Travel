@@ -340,6 +340,11 @@ header {
   margin-top: 25px;
 }
 
+.popup_sign_button:hover {
+  transform: scale(1.01);
+  filter: brightness(1.3);
+}
+
 .popup_forget_password {
   font-family: "Aleo";
   font-style: normal;
@@ -377,6 +382,10 @@ header {
 .popup_button_link {
   color: rgba(13, 96, 111, 1);
   text-decoration-line: underline;
+}
+
+.popup_button_link:hover {
+  filter: brightness(1.3);
 }
 
 /* Media for main header*/
