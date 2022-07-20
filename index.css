@@ -858,6 +858,7 @@ header {
 }
 
 .destination_picture_img {
+  transition: all 1s;
   width: 100%;
   height: 210px;
   border-radius: 16px;
@@ -960,10 +961,13 @@ header {
   .destination_pictures {
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 10px;
+    overflow: hidden;
+    transition: 1s;
   }
+
   .destination_div1 {
-    width: 32%;
+    width: auto;
     height: auto;
   }
 
@@ -971,19 +975,19 @@ header {
   .destination_div3 {
     display: block;
     position: relative;
-    width: 32%;
+    width: auto;
     height: auto;
   }
 
   .destination_pictures img {
-    width: 100%;
-    height: auto;
+    width: 330px;
+    height: 330px;
+    transition: 1s;
   }
 
   .inner_text {
-    position: absolute;
     left: 5%;
-    top: 80%;
+    top: 85%;
     font-size: 16px;
   }
 
@@ -1049,31 +1053,23 @@ header {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 550px) {
   .destination_pictures {
-    overflow: hidden;
     gap: 60px;
   }
+}
 
-  .destination_div1,
-  .destination_div2,
-  .destination_div3 {
-    display: block;
-    position: relative;
-    width: auto;
-  }
+@media (min-width: 1000px) {
 
   .destination_pictures img {
     width: 800px;
     height: 800px;
+    transition: 1s;
   }
 
   .inner_text {
-    position: absolute;
-    left: 15px;
-    top: 718px;
-    font-family: "Red Hat Text", sans-serif;
-    font-weight: 500;
+    left: 1.875%;
+    top: 89.75%;
     font-size: 32px;
     color: white;
   }
