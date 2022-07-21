@@ -842,20 +842,15 @@ header {
   justify-content: center;
   position: relative;
 }
+
 .destination_slider_div {
   width: 92.5%;
   position: relative;
-}
-.destination_div1 {
   display: none;
 }
 
-.destination_div2 {
+.slider_active {
   display: block;
-}
-
-.destination_div3 {
-  display: none;
 }
 
 .destination_picture_img {
@@ -909,15 +904,11 @@ header {
   border: none;
 }
 
-.pixel_button_1 {
+.pixel_button_active {
   background-color: #f2785c;
 }
 /*TODO CHANGE THIS!!!!!!*/
-.pixel_button_2 {
-  background-color: #f2785c80;
-}
-
-.pixel_button_3 {
+.pixel_button_inactive {
   background-color: #f2785c80;
 }
 
@@ -1010,18 +1001,6 @@ header {
     border-radius: 50%;
     outline: none;
     border: none;
-  }
-
-  .pixel_button_1 {
-    background-color: #f2785c80;
-  }
-  /*TODO CHANGE THIS!!!!!!*/
-  .pixel_button_2 {
-    background-color: #f2785c;
-  }
-
-  .pixel_button_3 {
-    background-color: #f2785c80;
   }
 
   .more_button_area {
