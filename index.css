@@ -885,6 +885,11 @@ header {
   position: absolute;
 }
 
+.arrow {
+  background-color: transparent;
+  border: none;
+}
+
 .pixel_group {
   position: absolute;
   bottom: 16px;
