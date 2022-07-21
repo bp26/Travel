@@ -898,6 +898,11 @@ header {
   border: none;
 }
 
+.arrow_transform {
+  transition:none;
+  transform: scaleX(-1);
+}
+
 .pixel_group {
   position: absolute;
   bottom: 16px;
@@ -915,14 +920,11 @@ header {
   border-radius: 50%;
   outline: none;
   border: none;
+  background-color: #f2785c80;
 }
 
 .pixel_button_active {
   background-color: #f2785c;
-}
-/*TODO CHANGE THIS!!!!!!*/
-.pixel_button_inactive {
-  background-color: #f2785c80;
 }
 
 .destinations_section .more_button_area {
