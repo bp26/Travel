@@ -981,6 +981,15 @@ header {
     width: auto;
     height: auto;
     display: block;
+    transform: translate(0);
+  }
+
+  .destination_slider_left {
+    transform: translate(340px);
+  }
+
+  .destination_slider_right {
+    transform: translate(-340px);
   }
 
   .destination_pictures img {
@@ -1049,9 +1058,25 @@ header {
   .destination_pictures {
     gap: 60px;
   }
+
+  .destination_slider_left {
+    transform: translate(390px);
+  }
+
+  .destination_slider_right {
+    transform: translate(-390px);
+  }
 }
 
 @media (min-width: 1000px) {
+  .destination_slider_left {
+    transform: translate(860px);
+  }
+
+  .destination_slider_right {
+    transform: translate(-860px);
+  }
+
   .destination_pictures img {
     width: 800px;
     height: 800px;
