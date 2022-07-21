@@ -1,10 +1,3 @@
-/* Common*/
-const destinationPictures = document.querySelector(".destination_pictures");
-const destinationSliderDiv = document.querySelectorAll(
-  ".destination_slider_div"
-);
-
-
 /* Mobile slider */
 
 const destinationDiv1 = document.querySelector(".destination_div1");
@@ -58,3 +51,42 @@ nextSlideButton.addEventListener("click", (event) => {
     arrowLeftImg.classList.add('arrow_transform')
   }
 });
+
+
+/* Desktop slider */
+
+const destinationSliderDiv = document.querySelectorAll(".destination_slider_div");
+const pixelDesktop1 = document.querySelector('.pixel_desktop1');
+const pixelDesktop2 = document.querySelector('.pixel_desktop2');
+const pixelDesktop3 = document.querySelector('.pixel_desktop3');
+
+destinationSliderDiv.forEach((slide) => {
+
+  destinationDiv1.addEventListener('click', (event) => {
+    if (slide.classList.contains('destination_slider_left') === false) {
+      slide.classList.add('destination_slider_left')
+      pixelDesktop2.classList.remove('pixel_button_active')
+      pixelDesktop1.classList.add('pixel_button_active')
+    }
+  })
+
+  destinationDiv2.addEventListener('click', (event) => {
+    if (slide.classList.contains('destination_slider_left')) {
+      slide.classList.remove('destination_slider_left')
+      pixelDesktop1.classList.remove('pixel_button_active')
+      pixelDesktop2.classList.add('pixel_button_active')
+    } else if (slide.classList.contains('destination_slider_right')) {
+      slide.classList.remove('destination_slider_right')
+      pixelDesktop3.classList.remove('pixel_button_active')
+      pixelDesktop2.classList.add('pixel_button_active')
+    }
+  })
+
+  destinationDiv3.addEventListener('click', (event) => {
+    if (slide.classList.contains('destination_slider_right') === false) {
+      slide.classList.add('destination_slider_right')
+      pixelDesktop2.classList.remove('pixel_button_active')
+      pixelDesktop3.classList.add('pixel_button_active')
+    }
+  })
+})
