@@ -985,6 +985,10 @@ header {
     transition: 1s;
   }
 
+  .slider_active {
+    animation: none;
+  }
+
   .destination_slider_left {
     transform: translate(340px);
     transition: 0.7s;
