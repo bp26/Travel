@@ -18,13 +18,11 @@ const nextSlideButton = document.querySelector(".next_slide_button");
 
 previousSlideButton.addEventListener("click", (event) => {
   if (destinationDiv2.classList.contains("slider_active")) {
-    destinationDiv2.classList.remove("opacity_full");
     destinationDiv2.classList.remove("slider_active");
     destinationDiv1.classList.add("slider_active");
-    destinationDiv1.classList.add("opacity_full");
-  } else if (destinationDiv3.classList.contains(".slider_active")) {
-    destinationDiv3.classList.remove("slider_active");
-    destinationDiv2.classList.add("slider_active");
+  } else if (destinationDiv3.classList.contains('slider_active')) {
+    destinationDiv3.classList.remove('slider_active');
+    destinationDiv2.classList.add('slider_active')
   }
 });
 

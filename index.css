@@ -856,7 +856,7 @@ header {
 
 @keyframes slider-opacity {
   0% {
-    opacity: 0;
+    opacity: 0.3;
     transform: scale(0.9);
   }
 
