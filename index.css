@@ -379,7 +379,6 @@ header {
 }
 
 @media (max-width: 650px) {
-
   .popup_content {
     width: 400px;
     height: auto;
@@ -387,25 +386,25 @@ header {
     margin: 0 10px;
     transition: 0.5s;
   }
-  
+
   .popup_title {
     font-size: 22px;
     margin-bottom: 20px;
   }
-  
+
   .popup_logo_button {
     gap: 12px;
     padding: 11px 0;
   }
-  
+
   .popup_logo_button:first-of-type {
     margin-bottom: 15px;
   }
-  
+
   .popup_logo_button:nth-of-type(2) {
     margin-bottom: 20px;
   }
-  
+
   .popup_logo_text {
     font-size: 15px;
   }
@@ -413,42 +412,42 @@ header {
   .popup_or_div {
     margin-bottom: 8px;
   }
-  
+
   .popup_or {
     font-size: 15px;
   }
-  
+
   .popup_common_block form:first-of-type {
     margin-bottom: 12px;
   }
-  
+
   .popup_form_label {
     font-size: 12px;
   }
-  
+
   .popup_form_input {
     height: 44px;
     font-size: 15px;
   }
-  
+
   .popup_sign_button {
     height: 44px;
-    font-size: 15px; 
+    font-size: 15px;
     margin-top: 15px;
   }
   .popup_forget_password {
     font-size: 12px;
     margin-top: 10px;
   }
-  
+
   .popup_line {
     margin-top: 15px;
     margin-bottom: 12px;
   }
-  
+
   .log_register_link {
     font-size: 12px;
-  } 
+  }
 }
 
 /* Media for main header*/
@@ -843,14 +842,16 @@ header {
   justify-content: center;
   position: relative;
 }
-
-.destination_div1 {
+.destination_slider_div {
   width: 92.5%;
   position: relative;
 }
+.destination_div1 {
+  display: none;
+}
 
 .destination_div2 {
-  display: none;
+  display: block;
 }
 
 .destination_div3 {
@@ -965,18 +966,10 @@ header {
     overflow: hidden;
     transition: 1s;
   }
-
-  .destination_div1 {
+  .destination_slider_div {
     width: auto;
     height: auto;
-  }
-
-  .destination_div2,
-  .destination_div3 {
     display: block;
-    position: relative;
-    width: auto;
-    height: auto;
   }
 
   .destination_pictures img {
@@ -1060,7 +1053,6 @@ header {
 }
 
 @media (min-width: 1000px) {
-
   .destination_pictures img {
     width: 800px;
     height: 800px;
